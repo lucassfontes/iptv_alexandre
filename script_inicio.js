@@ -5,7 +5,8 @@ let logado = document.querySelector('#logado')
 logado.innerHTML = `Olá ${userLogado.nome} <br>Você está logado!`
 
 if(localStorage.getItem('token') == null){
-    window.location.href='https://lucassfontes.github.io/site/index.html'
+    alert('Você não está logado!')
+    window.location.href='index.html'
 }
 
 function sair(){
