@@ -1,12 +1,24 @@
-let btn = document.querySelector('.fa-eye')
+let btn_eye = document.querySelector('#eye')
+let btn_slash = document.querySelector('#eye-slash')
 
-btn.addEventListener('click', ()=>{
+btn_eye.addEventListener('click', ()=>{
     let inputSenha = document.querySelector('#senha')
 
     if(inputSenha.getAttribute('type') == 'password'){
         inputSenha.setAttribute('type', 'text')
-    }else{
+        btn_eye.setAttribute('style', 'display:none')
+        btn_slash.setAttribute('style', 'display:block')
+    }
+})
+
+btn_slash.addEventListener('click', ()=>{
+    let inputSenha = document.querySelector('#senha')
+    
+    if(inputSenha.getAttribute('type') == 'text'){
         inputSenha.setAttribute('type', 'password')
+        btn_eye.setAttribute('style', 'display:block')
+        btn_slash.setAttribute('style', 'display:none')
+
     }
 })
 
@@ -26,17 +38,25 @@ function entrar(){
         user: '23v1bn4f8gth',
         senha: '7yu84b52nm1',
     }
+    
+
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
-    listaUser.forEach((item) => {
-        if(usuario.value == item.userCad && senha.value == item.senhaCad){
-            userValid = {
-                nome: item.nomeCad,
-                user: item.userCad,
-                senha: item.senhaCad
+    if(listaUser == null){
+
+    }else{
+
+        listaUser.forEach((item) => {
+
+            if(usuario.value == item.userCad && senha.value == item.senhaCad){
+                userValid = {
+                    nome: item.nomeCad,
+                    user: item.userCad,
+                    senha: item.senhaCad
+                }
             }
-        }
-    })
+        })
+    }
 
     if(usuario.value == userValid.user && senha.value == userValid.senha ){
         
@@ -55,7 +75,7 @@ function entrar(){
         senha.setAttribute('style', 'border-color: red')
 
         msgError.setAttribute('style', 'display:block')
-        msgError.innerHTML = 'Usuario ou senha incorretos'
+        msgError.innerHTML = '*Usuario ou senha incorretos, \n Por favor insira um usuario ou senha validos! '
 
         usuario.value = ''
         senha.value = ''

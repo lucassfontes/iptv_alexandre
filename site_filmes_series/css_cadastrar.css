@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(https://img.elo7.com.br/product/zoom/2661592/painel-de-festa-lona-estadio-futebol-alta-resolucao-lona-futebol.jpg);
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/3058f131-5391-4e19-898e-f152ae5aa63a/BE-en-20210719-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -21,9 +21,9 @@ body{
 }
 
 .card{
-    background-color: #ffffff60;
+    background-color: rgb(0,0,0,.75);
     padding: 30px;
-    border-radius: 4%;
+    border-radius: 1%;
     box-shadow: 3px 3px 1px 0px #00000070;
     width: 400px;
 }
@@ -31,7 +31,7 @@ body{
 h1{
     text-align: center;
     margin-bottom: 20px;
-    color: #272262;   
+    color: #fff 
 }
 
 .label-float input{
@@ -39,8 +39,9 @@ h1{
     padding: 5px 5px;
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid #272262;
+    border-bottom: 2px solid #fff;
     background-color: transparent;
+    color: #fff;
     outline: none;
     min-width: 180px;
     transition: all .3s ease-out;
@@ -55,11 +56,11 @@ h1{
 }
 
 .label-float input:focus{
-    border-bottom: 2px solid #4038a0;
+    border-bottom: 2px solid #fff;
 }
 
 .label-float label{
-    color: #272262;
+    color: #fff;
     pointer-events: none;
     position: absolute;
     top:0;
@@ -72,14 +73,14 @@ h1{
 .label-float input:valid + label {
     font-size: 13px;
     margin-top: 0;
-    color: #4038a0;
+    color: #fff;
 }
 
 button{
-    width: 100px;
-    background-color: transparent;
-    border-color: #272262;
-    color: #272262;
+    width: 100%;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
     padding: 7px;
     font-weight: bold;
     margin-top: 20px;
@@ -91,8 +92,9 @@ button{
 }
 
 button:hover{
-    background-color: #4038a0;
+    background-color:#fd020e;
     color: #fff;
+    
 }
 
 .justify-center{
@@ -101,13 +103,60 @@ button:hover{
 
 }
 
-.fa-eye{
+#verSenha{
     position: absolute;
     top: 15px;
     right: 10px;
     cursor: pointer;
-    color: #272262;
+    color: #fff;
+    
 }
+
+#verSenha:hover{
+    color:rgb(121, 121, 121);
+}
+
+#verSenha_slash{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#verSenha_slash:hover{
+    color:rgb(121, 121, 121);
+}
+
+/*comfirmeSenha*/
+
+#verConfirmeSenha{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+#verConfirmeSenha:hover{
+    color:rgb(121, 121, 121);
+}
+
+#verConfirmeSenha_slash{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#verConfirmeSenha_slash:hover{
+    color:rgb(121, 121, 121);
+}
+
 
 #msgError{
      text-align: center;
@@ -120,7 +169,7 @@ button:hover{
 
 #msgSuccess{
     text-align: center;
-    color:#00bb00;
+    color:#e50914;
     background-color: #bbffbe;
     padding: 10px;
     border-radius: 4px;
