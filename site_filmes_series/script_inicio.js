@@ -5,7 +5,7 @@ let logado = document.querySelector('#logado')
 if(localStorage.getItem('token') == null){
 
     //alert('Você não está logado!')
-    window.location.href='site/index.html'
+    window.location.href='../index.html'
 
 }else{
 
@@ -15,7 +15,7 @@ if(localStorage.getItem('token') == null){
 function sair(){
     localStorage.removeItem('token')
     localStorage.removeItem('userLogado')
-    window.location.href='site/index.html'
+    window.location.href='../index.html'
 }
 
 
