@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    /*background-image: url(https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_80,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/saltlake/SammoHero_4C42AAC9-05AA-4310-9148BC1E58E299BB_5d3d6a3c-5ef5-458c-96e0f7256e1100a3.jpg);*/
+    background-color: #141414;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+button{
+    width: 26vh;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    padding: 1vh;
+    font-weight: bold;
+    font-size: 3vh;
+    margin-top: 3vh;
+    border-radius: .7vh;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/* Video Player */
+
+#container-videos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vh;;
+    
+    
+}
+
+#serie{
+    background-color: #000000;
+    padding: 1vh;
+    border-radius: 1vh;
+    width: 109vh;
+    height: 71vh;
+    
+}
+
+#videoPlayer{
+    width: 109vh;
+    height: 63vh;
+    border-radius: 1vh;
+}
+
+.opcao{
+    margin-top: 1vh;
+}
+
+#log{
+    background-color: rgb(41, 41, 41);
+    
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    margin: 0;
+}
+
+h1{
+    padding: 0.5vh;
+    margin-left: 1vh;
+    font-size: 3vh;
+    color: white;
+
+}
+
+#sair{
+    margin-left: 200vh;
+    margin-top: 0.2vh;
+    width: 6vh;
+    height: 4.5vh;
+    font-size: 2.2vh;
+    padding: 0;
+    border: none;
+}
+
+/* IPHONE x*/
+
+@media screen and (max-width:500px ) {
+    #serie{
+        background-color: #000000;
+        padding: .5vh;
+        border-radius: 1vh;
+        width: 45vh;
+        height: 31vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        
+    }
+    
+    #videoPlayer{
+        width: 45vh;
+        height: 25.5vh;
+        border-radius: 1vh;
+        
+    }
+    
+    .opcao{
+        margin-top: 0vh;
+        width: 13vh;
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    #sair{
+        margin-left: 25vh;
+ 
+    }
+}
