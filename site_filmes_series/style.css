@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/3058f131-5391-4e19-898e-f152ae5aa63a/BE-en-20210719-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.card{
+    background-color: rgb(0,0,0,.75);
+    padding: 30px;
+    
+    border-radius: 1%;
+    box-shadow: 3px 3px 1px 0px #00000070;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;   
+}
+
+.label-float input{
+    width: 95%;
+    
+    line-height: 30px;
+    padding: 11px 9px 0;
+    display: inline-block;
+    border: 0;
+    border-radius: 3%;
+    /*border-bottom: 0px solid rgb(255, 0, 0);*/
+    background-color: #333333;
+    outline: none;
+    min-width: 180px;
+    transition: all .3s ease-out;
+    color: #fff;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid brown;
+    transition: all .3s ease-out;
+}
+
+.label-float label{
+    color: #fff;
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left: 10px;
+    margin-top: 22px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+    font-size: 11px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+button{
+    width: 100%;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+
+}
+
+button:hover{
+    background-color:#fd020e;
+    color: #fff;
+    
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+
+}
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+p{
+    color: #fff;
+    font-size: 14pt;
+    text-align: center;
+
+}
+
+a{
+    color: #0071eb;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: rgb(0, 53, 114);
+
+}
+
+.fa-eye{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.fa-eye:hover{
+    color: rgb(121, 121, 121);
+}
+
+
+#msgError{
+    text-align: center;
+    color:#ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
