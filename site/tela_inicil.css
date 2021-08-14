@@ -96,7 +96,7 @@ h1{
 
 @media screen and (max-width:500px ) {
     #serie{
-        background-color: #ff0000;
+        background-color: #000000;
         padding: .5vh;
         border-radius: 1vh;
         width: 45vh;
