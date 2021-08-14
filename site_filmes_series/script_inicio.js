@@ -5,7 +5,7 @@ let logado = document.querySelector('#logado')
 if(localStorage.getItem('token') == null){
 
     //alert('Você não está logado!')
-    window.location.href='/index.html'
+    window.location.href='site/index.html'
 
 }else{
 
