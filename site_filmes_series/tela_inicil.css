@@ -15,6 +15,7 @@ body{
 }
 
 .logo{
+    display: flex;
     padding: 15px 20px;
     font-size: 10pt;
 }
@@ -46,7 +47,7 @@ button:hover{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 10vh;;
+    margin-top: 1em;;
     
     
 }
@@ -60,7 +61,7 @@ button:hover{
     
 }
 
-#videoPlayer{
+.videoPlayer{
     width: 109vh;
     height: 63vh;
     border-radius: 1vh;
@@ -71,12 +72,11 @@ button:hover{
 }
 
 #log{
-    background-color: rgb(41, 41, 41);
-    
+    margin-left: 69.1em;
+    margin-top:1.5%;
     width: 100%;
     height: 5vh;
     display: flex;
-    margin: 0;
 }
 
 h1{
@@ -88,7 +88,6 @@ h1{
 }
 
 #sair{
-    margin-left: 200vh;
     margin-top: 0.2vh;
     width: 6vh;
     height: 4.5vh;
@@ -111,7 +110,7 @@ h1{
         
     }
     
-    #videoPlayer{
+    .videoPlayer{
         width: 45vh;
         height: 25.5vh;
         border-radius: 1vh;
