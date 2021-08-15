@@ -14,6 +14,11 @@ body{
     background-attachment: fixed;
 }
 
+.logo{
+    padding: 15px 20px;
+    font-size: 10pt;
+}
+
 button{
     width: 26vh;
     background-color: transparent;
