@@ -14,9 +14,6 @@
         <div class="card">
             <h1>Cadastrar</h1>
 
-            <div id="msgError"></div>
-            <div id="msgSuccess"></div>
-
             <div class="label-float">
                 <input type="text" id="nome" placeholder="" required>
                 <label id="labelNome" for="nome">Nome</label>
@@ -45,9 +42,23 @@
                 <i id="verConfirmeSenha_slash" class="fa fa-eye-slash"></i>
             </div>
 
+            <div id="msgError"></div>
+
+
+
             <div class="justify-center">
                 <button onclick="cadastrar()">Cadastrar</button>
             </div>
+
+            <div>
+                <hr>
+            </div>
+
+            <p>Eu li e aceito os 
+                <a href="#">termos</a> de uso
+                <input type="checkbox" name="" id="termos"> 
+            </p>
+
         </div>
     </div>
     <script src="script_cadastro.js"></script>

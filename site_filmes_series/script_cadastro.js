@@ -149,9 +149,6 @@ function cadastrar(){
 
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
 
-        msgSuccess.setAttribute('style', 'display: block')
-        msgSuccess.innerHTML = '<strong>Cadastrando usuario...</strong>'
-
         msgError.setAttribute('style', 'display: none')
         msgError.innerHTML = ''
 
@@ -163,7 +160,12 @@ function cadastrar(){
         msgError.setAttribute('style', 'display: block')
         msgError.innerHTML = '<strong>Preencha todos os campos corretamente antes de cadastrar</strong>'
 
-        msgSuccess.setAttribute('style', 'display: none')
-        msgSuccess.innerHTML = ''
+        labelNome.setAttribute('style','color:red')
+        labelUsuario.setAttribute('style','color:red')
+        labelSenha.setAttribute('style','color:red')
+        labelComfirmSenha.setAttribute('style','color:red')
+
+        nome.focus()
+
     }
 }

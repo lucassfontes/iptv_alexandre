@@ -166,3 +166,79 @@ a:hover{
     display: none;
 }
 
+/*RESPONSIVIDADE TELA VIRADA SMARTPHONE*/
+
+@media screen and (max-width: 900px) {
+    body{
+        background-image: none;
+        background-color:rgb(0, 0, 0);
+    }
+
+    .container{
+        margin-top: .1vh;
+    }
+
+    h1{
+        text-align: left;
+        margin-bottom: .1rem;  
+    }
+
+    .label-float input{
+        width: 350px;
+    }
+
+    button{
+        margin-top: 1%;
+    }
+
+    hr{
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    p{
+        text-align: left;
+    }
+}
+
+
+/*RESPONSIVIDADE TELA NORMAL SMARTPHONE*/
+
+@media screen and (max-width: 420px) {
+    body{
+        background-image: none;
+        background-color:rgb(0, 0, 0);
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .card{
+        padding: 20px;
+        margin: 5vh 5vh 5vh;
+    }
+
+    h1{
+        text-align: left;
+        margin-bottom: .1rem;  
+    }
+
+    .label-float input{
+        width: 90%;
+    }
+
+    hr{
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    p{
+        font-size: 10pt;
+        text-align: left;
+        width: 101%;
+    }
+}
