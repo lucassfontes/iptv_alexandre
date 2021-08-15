@@ -45,7 +45,8 @@ function btn_supernatura(){
     videoPlayer.poster = 'https://ntvb.tmsimg.com/assets/p17057825_i_h11_aa.jpg'
 
     //videoPlayer.src = 'http://cdn99.one:80/series/lucassfontessantos/br48936/91939.mp4'
-    videoPlayer.src = 'https://playdrivecontent2.playdrive.xyz/link/BauxPVnPRnywnru/360/d89a03e533eb34e0c3ca313c882fe847'
+    videoPlayer.src = 'https://get.streamz.tw/getlink-ac730a8f24988e4c3b7bf893599e9db3.dll'
+
     document.querySelector(".videoPlayer").play()
     
 }
