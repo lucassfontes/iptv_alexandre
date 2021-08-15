@@ -28,8 +28,8 @@ function btn_narcos(){
 
     videoPlayer.poster = 'https://imgr.cineserie.com/2020/12/narcos-secrets-de-serie.jpg?imgeng=/f_jpg/cmpr_0/w_660/h_370/m_cropbox&ver=1'
 
-    videoPlayer.src = 'http://cdn99.one:80/series/lucassfontessantos/br48936/10454'
-
+    //videoPlayer.src = 'http://cdn99.one:80/series/lucassfontessantos/br48936/10454'
+    videoPlayer.src = 'http://38.130.243.204/deliver/10454.mp4?ctoken=ArgDvpwyYRxfQCce'
     document.querySelector(".videoPlayer").play()
 
 }
