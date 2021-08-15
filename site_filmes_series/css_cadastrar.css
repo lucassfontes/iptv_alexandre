@@ -103,7 +103,6 @@ button:hover{
 .justify-center{
     display: flex;
     justify-content: center;
-
 }
 
 hr{
@@ -191,4 +190,149 @@ a:hover{
     margin: 0 0 0;
     color:#ff9100;
     display: none;
+}
+
+
+/*RESPONSIVIDADE TELA VIRADA SMARTPHONE*/
+
+@media screen and (max-width: 900px) {
+    body{
+        background-image: none;
+        background-color:rgb(0, 0, 0);
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    .card{
+        padding: 20px;
+        margin-top: 1vh;
+    }
+
+    h1{
+        text-align: left;
+        margin-bottom: .1rem;  
+    }
+
+    .label-float input{
+        width: 100%;
+    }
+
+    .label-float{
+        padding-top: 11px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    
+    }
+
+    .justify-center{
+        display: flex;
+        justify-content: center;
+        width: 105%;
+    }
+
+    hr{
+        margin-top: 4%;
+        margin-bottom: 2%;
+        width: 105%;
+    }
+
+    p{
+        font-size: 12pt;
+        text-align: left;
+        width: 107%;
+    }
+
+    #verSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
+}
+
+
+/*RESPONSIVIDADE TELA NORMAL SMARTPHONE*/
+
+@media screen and (max-width: 420px) {
+    body{
+        background-image: none;
+        background-color:rgb(0, 0, 0);
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .card{
+        padding: 20px;
+        margin: 5vh 5vh 5vh;
+    }
+
+    h1{
+        text-align: left;
+        margin-bottom: .1rem;  
+    }
+
+    .label-float input{
+        width: 100%;
+    }
+
+    .justify-center{
+        display: flex;
+        justify-content: center;
+        width: 107%;
+    }
+
+    hr{
+        margin-top: 4%;
+        margin-bottom: 2%;
+        width: 107%;
+    }
+
+    p{
+        font-size: 12pt;
+        text-align: left;
+        width: 107%;
+    }
+
+    #verSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
 }
