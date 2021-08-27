@@ -28,8 +28,8 @@ function btn_narcos(){
 
     videoPlayer.poster = 'https://imgr.cineserie.com/2020/12/narcos-secrets-de-serie.jpg?imgeng=/f_jpg/cmpr_0/w_660/h_370/m_cropbox&ver=1'
 
-    //videoPlayer.src = 'http://cdn99.one:80/series/lucassfontessantos/br48936/10454'
-    videoPlayer.src = 'http://38.130.243.204/deliver/10454.mp4?ctoken=ArgDvpwyYRxfQCce.dll'
+    videoPlayer.src = 'http://cdn99.one:80/series/lucassfontessantos/br48936/10454'
+
     document.querySelector(".videoPlayer").play()
 
 }
@@ -44,8 +44,9 @@ function btn_supernatura(){
 
     videoPlayer.poster = 'https://ntvb.tmsimg.com/assets/p17057825_i_h11_aa.jpg'
 
-    //videoPlayer.src = 'http://cdn99.one:80/series/lucassfontessantos/br48936/91939.mp4'
-    videoPlayer.src = 'https://get.streamz.tw/getlink-ac730a8f24988e4c3b7bf893599e9db3.dll'
+    videoPlayer.src = 'http://cdn99.one:80/series/lucassfontessantos/br48936/91939.mp4'
+
+    https://868418907.tapecontent.net/radosgw/VxAQKLev49cPjQ/izM-_gJEI88y9-hOTA0jLEC6K8M0zBDGkFKBuvbq42p1fZ0lQtprX19bsXxOTTJ4OhG3IdxZrtwQ9VVRsySP6VK_TTHfkcwMlKVTWmYiDLjLUOU1iorzMosaISmvFLTlvTiU6bL6eb5_aqieO2yFa4geW8rtgUJs3dLjGEP5obsgpkyul0AFRHZkDq1Z_79LUiY8t77avfUSdCgeceWKH_xavBIZbAqnqdM8OgckWJ1yh_v0HVTk9GbCw6QNJaalme7L6VtZ3EzCdvfL/C0D4.mp4?stream=1
 
     document.querySelector(".videoPlayer").play()
     
