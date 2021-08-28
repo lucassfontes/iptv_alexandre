@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tela de Cadastro</title>
+
+    <link rel="stylesheet" href="../css/css_cadastro.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="logo">
+        <a href="../index.html">
+
+            <img src="https://fontmeme.com/permalink/210815/008ac5d9cf045b2c87b009f085b13c18.png" alt="netflix-font" border="0"></a>
+     </div>
+
+    <div class="container">
+        <div class="card">
+            <h1>Cadastrar</h1>
+
+            <div class="label-float">
+                <input type="text" id="nome" placeholder="" required>
+                <label id="labelNome" for="nome">Nome</label>
+            </div>
+
+            <div class="label-float">
+                <input type="text" id="usuario" placeholder="" required>
+                <label id="labelUsuario" for="usuario">Usuario</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="" required>
+                <label id="labelSenha" for="usuario">Senha</label>
+
+                <i id="verSenha" class="fa fa-eye"></i>
+                <i id="verSenha_slash" class="fa fa-eye-slash"></i>
+
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="comfirmSenha" placeholder="" required>
+
+                <label id="labelComfirmSenha" for="comfirmSenha">Confirmar Senha</label>
+
+                <i id="verConfirmeSenha" class="fa fa-eye"></i>
+                <i id="verConfirmeSenha_slash" class="fa fa-eye-slash"></i>
+            </div>
+
+            <div id="msgError"></div>
+
+
+
+            <div class="justify-center">
+                <button onclick="cadastrar()">Cadastrar</button>
+            </div>
+
+            <div>
+                <hr>
+            </div>
+
+            <p>Eu li e aceito os 
+                <a href="#">termos</a> de uso
+                <input type="checkbox" name="" id="termos"> 
+            </p>
+
+        </div>
+    </div>
+    <script src="../js/js_cadastro.js"></script>
+</body>
+</html>

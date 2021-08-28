@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/3058f131-5391-4e19-898e-f152ae5aa63a/BE-en-20210719-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    padding: 15px 20px;
+    font-size: 10pt;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: rgb(0,0,0,.75);
+    padding: 30px;
+    border-radius: 1%;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff 
+}
+
+.label-float input{
+    width: 95%;
+    line-height: 30px;
+    padding: 11px 9px 0;
+    display: inline-block;
+    border: 0;
+    border-radius: 3%;
+    /*border-bottom: 0px solid rgb(255, 0, 0);*/
+    background-color: #333333;
+    outline: none;
+    min-width: 180px;
+    transition: all .3s ease-out;
+    color: #fff;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid brown;
+    transition: all .3s ease-out;
+}
+
+.label-float label{
+    color: #fff;
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left: 10px;
+    margin-top: 22px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+    font-size: 11px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+button{
+    width: 100%;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+
+}
+
+button:hover{
+    background-color:#fd020e;
+    color: #fff;
+    
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14pt;
+}
+
+a{
+    color: #0071eb;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: rgb(0, 53, 114);
+}
+
+#verSenha{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+#verSenha:hover{
+    color:rgb(121, 121, 121);
+}
+
+#verSenha_slash{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#verSenha_slash:hover{
+    color:rgb(121, 121, 121);
+}
+
+/*comfirmeSenha*/
+
+#verConfirmeSenha{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+#verConfirmeSenha:hover{
+    color:rgb(121, 121, 121);
+}
+
+#verConfirmeSenha_slash{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#verConfirmeSenha_slash:hover{
+    color:rgb(121, 121, 121);
+}
+
+
+#msgError{
+    width: 270px;
+    
+    padding-top: 5px;
+    font-size: 10pt;
+    margin: 0 0 0;
+    color:#ff9100;
+    display: none;
+}
+
+
+/*RESPONSIVIDADE TELA VIRADA SMARTPHONE*/
+
+@media screen and (max-width: 900px) {
+    body{
+        background-image: none;
+        background-color:rgb(0, 0, 0);
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    .card{
+        background-color: transparent;
+        padding: 20px;
+        margin-top: 1vh;
+    }
+
+    h1{
+        text-align: left;
+        margin-bottom: .1rem;  
+    }
+
+    .label-float input{
+        width: 100%;
+    }
+
+    .label-float{
+        padding-top: 11px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    
+    }
+
+    .justify-center{
+        display: flex;
+        justify-content: center;
+        width: 105%;
+    }
+
+    hr{
+        margin-top: 4%;
+        margin-bottom: 2%;
+        width: 105%;
+    }
+
+    p{
+        font-size: 12pt;
+        text-align: left;
+        width: 107%;
+    }
+
+    #verSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
+}
+
+
+/*RESPONSIVIDADE TELA NORMAL SMARTPHONE*/
+
+@media screen and (max-width: 420px) {
+    body{
+        background-image: none;
+        background-color:rgb(0, 0, 0);
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .card{
+        background-color: transparent;
+        padding: 20px;
+        margin: 5vh 5vh 5vh;
+    }
+
+    h1{
+        text-align: left;
+        margin-bottom: .1rem;  
+    }
+
+    .label-float input{
+        width: 100%;
+    }
+
+    .justify-center{
+        display: flex;
+        justify-content: center;
+        width: 107%;
+    }
+
+    hr{
+        margin-top: 4%;
+        margin-bottom: 2%;
+        width: 107%;
+    }
+
+    p{
+        font-size: 12pt;
+        text-align: left;
+        width: 107%;
+    }
+
+    #verSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha{
+        top: 25px;
+        right: -7px;
+    }
+
+    #verConfirmeSenha_slash{
+        top: 25px;
+        right: -7px;
+    }
+}
