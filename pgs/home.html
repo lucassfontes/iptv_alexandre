@@ -34,7 +34,7 @@
                                    
                     <div class="poste">
                     
-                        <button type="submit" id="imperio" class="contem" onclick="list_imperio()"><img class="img-logo" src="https://resumodasnovelas.online/wp-content/uploads/2021/04/Resumo-da-novela-Imp%C3%A9rio.jpg" alt="">Imperio 01</button>
+                        <button type="submit" id="imperio" class="contem" onclick="list_imperio()"><img class="img-logo" src="https://resumodasnovelas.online/wp-content/uploads/2021/04/Resumo-da-novela-Imp%C3%A9rio.jpg" alt="">Imperio</button>
 
                             
                     </div>
@@ -42,15 +42,14 @@
                 </div>
 
                 <div id="play_video">
-
+                    
                     <video src="" class="videoPlayer"  controls     preload="metadata" poster=""></video>
+
+                    <button class="fechar" id="fechar_video" onclick="fecha_video()"><strong>x</strong></button>
 
                 </div> <!-- play-video -->
 
                 <div id="play-list">
-
-                    <!-- <button class="opcao" id="btn_narcos" onclick="btn_narcos()">Nacos</button> 
-                     <button class="opcao" id="btn_supernatura" onclick="btn_supernatura()">Supernatura</button> -->
 
                     <h2 id="titulo"></h2>
                     
@@ -58,10 +57,13 @@
                         
                     <div id="eps"></div>
 
+                    <button class="fechar" id="fecha_list" onclick="fecha_list()"><strong>x</strong></button>
+
                 </div><!-- serie -->
 
             </div> <!-- container -->
 
         <script src="../js/js_home.js"></script>
+        <script src="../js/js_imperio.js"></script>
     </body>
 </html>
