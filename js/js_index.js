@@ -37,12 +37,14 @@ function entrar(){
         nome: '6a54sd56as5d',
         user: '23v1bn4f8gth',
         senha: '7yu84b52nm1',
+
     }
     
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
     if(listaUser == null){
+
 
     }else{
 
@@ -52,7 +54,7 @@ function entrar(){
                 userValid = {
                     nome: item.nomeCad,
                     user: item.userCad,
-                    senha: item.senhaCad
+                    senha: item.senhaCad,
                 }
             }
         })
