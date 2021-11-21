@@ -1,3 +1,4 @@
+
 let userLogado = JSON.parse(localStorage.getItem('userLogado'))
 
 let logado = document.querySelector('#logado')
@@ -56,4 +57,9 @@ function list_imperio(){
     play_list.setAttribute('style','display:flex')
     titulo.innerHTML = "Império"
 
-}   
+} 
+
+
+function expresso_amanha(){
+    window.location.href = '../series/expresso_amanha/expresso_amanha.html'
+}
