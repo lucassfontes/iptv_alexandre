@@ -1,6 +1,6 @@
 //caminho
 
-const servidor = 'http://cdn99.one'
+const servidor = 'https://cdn99.one'
 const porta = '80'
 const pasta = 'series' 
 const usuario = 'lucassfontessantos'
