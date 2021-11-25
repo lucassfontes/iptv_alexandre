@@ -45,22 +45,12 @@ body{
     transition: all .4s ease-in;
 }
 
-
-
-#p1:hover{
-    margin-left: 9px;
-    margin-right: 9px;
-    transition: all .4s ease-out;
-}
-
-
 .contem{
     background-color: transparent;
     border:none;
     box-shadow: #00000080;
     width: 250px;
     height: 150px;
-   
 }
 
 .contem:hover{
@@ -97,9 +87,7 @@ button:hover{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 1em;;
-    
-    
+    margin-top: 1em;
 }
 
 #play_video{
@@ -151,7 +139,7 @@ button:hover{
     display: flex;
 }
 
-h1{
+h2{
     padding: 0.5vh;
     margin-left: 1vh;
     font-size: 3vh;
@@ -168,9 +156,22 @@ h1{
     border: none;
 }
 
+
+/*#netflix_font{
+    width: auto;
+    height: auto;
+    max-width: 110px;
+    max-height: 40px;
+    font-size: 25pt;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e50914;
+}*/
+
 /* IPHONE x*/
 
-@media screen and (max-width:500px ) {
+@media screen and (max-width:800px ) {
+
     #serie{
         background-color: #000000;
         padding: .5vh;
@@ -180,6 +181,56 @@ h1{
         margin-left: 1vh;
         margin-right: 1vh;
         
+    }
+
+    #netflix_font{
+        margin-top: 2px;
+        width: auto;
+        height: auto;
+        max-width: 110px;
+        max-height: 40px;
+        font-size: 20pt;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #e50914;
+    }
+
+    #container{
+        margin-top: 1rem;
+    }
+
+    #conteudo{
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .contem{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .poste{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: -1%;
+        margin-top: 1%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-logo{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .img-logo:hover{
+        width: 167px;
+        height: 84px;
+        transition: all .4s ease-in;
     }
     
     .videoPlayer{
@@ -197,7 +248,27 @@ h1{
     }
 
     #sair{
-        margin-left: 25vh;
- 
+        margin-top: -8px;
+        margin-left: 0.5vh;
+        font-size: 2vh;
+        padding: 0.1vh;
     }
+
+    #log{
+        font-size: 5pt;
+        margin-left: 15em;
+        margin-top:2px;
+        width: 100%;
+        height: 5vh;
+        display: flex;
+    }
+
+    h2{
+        padding: 0.1vh;
+        margin-left: 1vh;
+        font-size: 2vh;
+        color: white;
+    
+    }
+
 }

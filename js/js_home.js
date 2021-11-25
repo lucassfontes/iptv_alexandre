@@ -55,7 +55,7 @@ function list_imperio(){
 
     conteudo.setAttribute('style','display:none')
     play_list.setAttribute('style','display:flex')
-    titulo.innerHTML = "Império"
+    titulo.innerHTML = "Expresso do Amanhã"
 
 } 
 
@@ -63,3 +63,8 @@ function list_imperio(){
 function expresso_amanha(){
     window.location.href = '../series/expresso_amanha/expresso_amanha.html'
 }
+
+function game_of_thrones(){
+    window.location.href = '../series/game_of_thrones/game_of_thrones.html'
+}
+

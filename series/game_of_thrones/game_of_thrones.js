@@ -21,83 +21,46 @@ const eps_ = [
     
     'eliminando o indece 0',
     /* TEMPORADA 01 */
-
-    /*01*/ '48721.mp4', 
-    /*02*/ '48722.mp4',
-    /*03*/ '48723.mp4',
-    /*04*/ '48724.mp4',
-    /*05*/ '48725.mp4',
-    /*06*/ '48726.mp4',
-    /*07*/ '48727.mp4',
-    /*08*/ '62998.mp4',
-    /*09*/ '62999.mp4',
-    /*10*/ '63000.mp4',
+    
+    /*01*/ '94048.mp4', 
+    /*02*/ '94049.mp4',
+    /*03*/ '94050.mp4',
+    /*04*/ '94051.mp4',
+    /*05*/ '94052.mp4',
+    /*06*/ '94053.mp4',
+    /*07*/ '94054.mp4',
+    /*08*/ '94055.mp4',
+    /*09*/ '94056.mp4',
+    /*10*/ '94057.mp4',
 
     /* TEMPORADA 02 */
 
     // o primeiro numero e o index o segundo é o numero do epsodio
 
-    /*11_01*/ '93583.mp4', 
-    /*12_02*/ '93943.mp4',
-    /*13_03*/ '94241.mp4',
-    /*14_04*/ '96034.mp4',
-    /*15_05*/ '96035.mp4',
-    /*16_06*/ '96556.mp4',
-    /*17_07*/ '97977.mp4',
-    /*18_08*/ '98805.mp4',
-    /*19_09*/ '100378.mp4',
-    /*20_10*/ '100379.mp4',
+    /*11_01*/ '94058.mp4', 
+    /*12_02*/ '94059.mp4',
+    /*13_03*/ '94060.mp4',
+    /*14_04*/ '94061.mp4',
+    /*15_05*/ '94062.mp4',
+    /*16_06*/ '94063.mp4',
+    /*17_07*/ '94064.mp4',
+    /*18_08*/ '94065.mp4',
+    /*19_09*/ '94066.mp4',
+    /*20_10*/ '94067.mp4',
 
 ]
 
 const capa_eps = [
 
     'eliminando o indece 0',
+
     /* TEMPORADA 01 */
 
-    /*01*/ "https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZ7EKWElFiMWwd4FAEtoQNp6VQrMRguFZy_NGUI3ABxfmdbg-JKaKVzvjerUP0VJyXCGd0yT7uG86QMAu5cCrE6AB1Qh0WVTknL1TVqDZgU6Jf3e.jpg?r=603", 
+    'https://www.capital.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2017.2F05.2F10.2F6b7b11a5-b337-4ba6-a65b-71697e7f5d92.2Ejpeg/790x395/background-color/ffffff/quality/70/game-of-thrones-ce-que-cette-serie-culte-nous-apprend-sur-le-pouvoir-en-entreprise-960913.jpg',
 
-    /*02*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVhn3BE1fHCl7UTF29GqssQcIkNHEiQ-xXnTqDhtEJDfxO8O-wkzmw1bH1re3GP1iyBsLHKCzIxgarPK4bK1mCYbbde4TSaYjov_sceFKyp8sX6I.jpg?r=e92',
+    /* TEMPORADA 02 */
 
-    /*03*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZZV5Kl-9OAsr9yBNfxUz-7RhiLOGN2czI2LkSF2FbpwDkQyE3B0kEWC-9z5O9qcAjgcn3EpMxNicgjAiL3Ik5r2lG1475Zdz9F6TClB2n6qE8yq.jpg?r=96f',
-
-    /*04*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdo2S57nwlBFI1Gj1bNCKRCNC-T6Hx0Tn3FhtEghpAPICEvzD0v0ZWCts0ENL2XR4grFykBpp5YUfYuwFZ0gxui2mABZA7WIlLn88FS-g4hcpbfO.jpg?r=eba',
-
-    /*05*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVidHX1Frnc1a5VH9I3Ouj9bv4LtXUPNja01E3crRjVx-dzPLr5Gf6UFlLMi3vcf2Cm2VZd9P6C69g55A6x5ArqVpFYMsa2iIK_Ts-FhmBAx7edP.jpg?r=0cb',
-
-    /*06*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeHrOhjVG3aGHJ3WfMdwg6_a4_Vw6cBRc0mWhs1B1oJeMpOH8d4he-7kaxgn3Z4DTLxB6_AGqj54RDaIYM5eanpo0kLivINqAg4--lllQI9rczAr.jpg?r=7b0',
-
-    /*07*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYcBIKBrJDC_kzAGeP4HPLR4KHQ5hxdMyQ79CfEceCUT3e6ywBgFzejJAPCOvR3LJ5wAvXTZVaPCt2Nv9iDgsyQbltec1lY5TeCHJATlW9bI0Xzh.jpg?r=8de',
-
-    /*08*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbXIoCqC0yjblrQ_nNL6tmv2DYL5jPkROTSWq_tLMklpelPhPJvUMl73jOUKPsa4rP_YNmvZYcP0mu6ajsWnz9BOWMsev4DEOPpq9AXSD3cU3qid.jpg?r=eef',
-
-    /*09*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUAZnJ-4ewQV5HUpTqKlgjAU3MlbhHOEBynW9wZPS4qBdHgF1HBaLOsDM9-o69PdbeClbWmItyJXQwQJyAxhMcM_ksS-HNebYcB03kg5rVBz9JkX.jpg?r=cef',
-
-    /*10*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfOS0gYJZHsS9oeupZ78cL4pSMXsAS-gHr5VWHWj8NIf_ntc2z5foBPNKIgJUFx511niqVosj056S7Clm0y261v4LBBaSZEakWS96PVKMO7KLoi2.jpg?r=cc6',
-
-    /* TEMPORADA 02 */ 
-
-    // o primeiro numero e o index o segundo é o numero do epsodio
-
-    /*11_01*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXiMhqlfD1ZW3N8Vlux_Al5q1YJtyZYiJoYTqmVlD2wDxLkRJgHZvatRorppIOiuiG8h4Zws1ZAtw6Kng0j-Afx-o25Rkrn0YxUtk_2K8ZuEiMDw.jpg?r=74a',
-
-    /*12_02*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTiAmbqHaoaZgAK-qCHeore3W1RfIITcLGwSnHQp4fmDT0iTkXL-7SxfoSW7XRJ8Fp5s6uTwnIrcwg5FJ3Y1SZWvLLQM_n1fdPjaRwThxSvF_vhB.jpg?r=028',
-
-    /*13_03*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABX6erfD4nSvgNML2IUfi230kZ8oFSit8g75iVbaszVvcvFLIq3luKkCbWx3qy02tdv9CHEOXIeIntT5w30sJ1XKXch4ZMOcALXygLllsbBcLt5gG.jpg?r=e37',
-
-    /*14_04*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeLCKPiC8NspicpFHND8I5Kze7xdiRJKSXGQb6RuXBSS7v7M25JhVFfL9ZYKbu4ps_KzrWahSjknFScoxeAUnKSC9Z5Hj4ruLCZbTQ9ZEhnzsqW5.jpg?r=181',
-
-    /*15_05*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaW2fVotwe8kcAHnImxdzJbB0HO7KkQ1JfQsmRGef2tbdi4a5zEXC_LOMiz5NojLNGwXxDqJkxqkViEZNCsJ7meaKdZu0o-WnfPeX0XlYDxun8nR.jpg?r=00a',
-
-    /*16_06*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABV5IK4RJioBJSRmOKuS2DeCveMBNfa-Pdt0vAxD2Os2oSb37bu4JcumdKxPnR67XTSKhWhsjj7V_z4jW_9h3ycYNs3HRvPL_2-fI2Nu6oxzaNhGc.jpg?r=f1c',
-
-    /*17_07*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYYa8CJX1gqEBVmxs_-4jL96pEuzcbC9BHOtlH3kH3YycbDfEzi3Dl9l8wP3PF0p0-OpHAQu1xpVHQfR0TmE_zkTqucyicM1JNazVCNZphhJ_sQG.jpg?r=458',
-
-    /*18_08*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUtK9h13zRKUQCezgwrNCZpVr18qxwLOGlqdb_eEvgsq2MEvH9AI2I88rADNVAK8QfYibA93DGzpPXEoBBS7GW65qX5cflldEscPJa_NOOJ7ePl7.jpg?r=898',
-
-    /*19_09*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUS364C2ioZZ8M9PnD7unT579Ra_yScBv-YsGU9mbAOrOitiTImo39W8xReZTvFrxRg1Z84OICxQdLDDIqnvw6GCvg846GBz3qySpfP6KXoEVVF9.jpg?r=954',
-
-    /*20_10*/ 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdBcoYgg1QpzRouFOnqlZT1k0ma9mEmXgZmNWsj6NLvu58OmOUeXVNyZR0Aqay1XMn04GZhyolPcCAj5AH82VytXV-yQI1WlG6BbbrbqAO24eMKT.jpg?r=1f8',
+    'https://tv-fanatic-res.cloudinary.com/iu/s--fTvHzhZv--/t_xlarge_l/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1461956482/attachment/game-of-thrones-round-table-660px.jpg',
 
 ]
 
@@ -105,7 +68,7 @@ const capa_eps = [
 
 let type_logo = document.getElementById('type_logo')
 
-type_logo.src = 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABck2lTqVpya4XivwKsn5hEVmE4cAr3P4y4OHNcsozqXyQ7c5s6phBlndVApZ5A7XGN378fmnyjlYvhupgBSsf5MExpfdfIOeO-FF8-2WBWMhSB65nr3rv9SK0CQcew.jpg?r=6c2'
+type_logo.src = 'https://www.asiamediajournal.com/wp-content/uploads/2020/10/Index-Of-Game-Of-Thrones-696x399.png'
 
 type_logo.title = 'Expresso do Amanhã'
 type_logo.alt = 'Expresso do Amanhã'
@@ -113,7 +76,17 @@ type_logo.alt = 'Expresso do Amanhã'
 // fim type_logo
 
 
-const capa = 'https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABck2lTqVpya4XivwKsn5hEVmE4cAr3P4y4OHNcsozqXyQ7c5s6phBlndVApZ5A7XGN378fmnyjlYvhupgBSsf5MExpfdfIOeO-FF8-2WBWMhSB65nr3rv9SK0CQcew.jpg?r=6c2'
+const capa_video = [
+    'eliminando o indece 0',
+
+    /* TEMPORADA 01 */
+
+    'https://www.capital.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2017.2F05.2F10.2F6b7b11a5-b337-4ba6-a65b-71697e7f5d92.2Ejpeg/790x395/background-color/ffffff/quality/70/game-of-thrones-ce-que-cette-serie-culte-nous-apprend-sur-le-pouvoir-en-entreprise-960913.jpg',
+
+    /* TEMPORADA 02 */
+
+    'https://tv-fanatic-res.cloudinary.com/iu/s--fTvHzhZv--/t_xlarge_l/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1461956482/attachment/game-of-thrones-round-table-660px.jpg',
+]
     
 let eps = document.createElement('div')
 eps.id = 'eps'
@@ -242,7 +215,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[1]
             
@@ -263,7 +236,7 @@ function myeps(){
         s1_btn_eps2.className = 'btn_eps'
         s1_btn_eps2.id = 's1_btn_eps2'
         s1_img2.className = 'logo_imperio'
-        s1_img2.src = capa_eps[2]
+        s1_img2.src = capa_eps[1]
         s1_img2.style = "width: 20%; opacity: 1;"
 
         s1_p2.innerHTML = '2'
@@ -287,7 +260,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[2]
             
@@ -307,7 +280,7 @@ function myeps(){
         s1_btn_eps3.className = 'btn_eps'
         s1_btn_eps3.id = 's1_btn_eps3'
         s1_img3.className = 'logo_imperio'
-        s1_img3.src = capa_eps[3]
+        s1_img3.src = capa_eps[1]
         s1_img3.style = "width: 20%; opacity: 1;"
 
         s1_p3.innerHTML = '3'
@@ -331,7 +304,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[3]
             
@@ -351,7 +324,7 @@ function myeps(){
         s1_btn_eps4.className = 'btn_eps'
         s1_btn_eps4.id = 's1_btn_eps4'
         s1_img4.className = 'logo_imperio'
-        s1_img4.src = capa_eps[4]
+        s1_img4.src = capa_eps[1]
         s1_img4.style = "width: 20%; opacity: 1;"
 
         s1_p4.innerHTML = '4'
@@ -375,7 +348,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[4]
             
@@ -395,7 +368,7 @@ function myeps(){
         s1_btn_eps5.className = 'btn_eps'
         s1_btn_eps5.id = 's1_btn_eps5'
         s1_img5.className = 'logo_imperio'
-        s1_img5.src = capa_eps[5]
+        s1_img5.src = capa_eps[1]
         s1_img5.style = "width: 20%; opacity: 1;"
 
         s1_p5.innerHTML = '5'
@@ -413,14 +386,13 @@ function myeps(){
             let play_temporadas = document.getElementById('temporadas')
             let play_video = document.getElementById('play_video')
 
-
             play_temporadas.setAttribute('style','display:none')
             btn_fechar.setAttribute('style','display:block')
             play_video.setAttribute('style','display:block')
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[1]
             
@@ -440,7 +412,7 @@ function myeps(){
         s1_btn_eps6.className = 'btn_eps'
         s1_btn_eps6.id = 's1_btn_eps6'
         s1_img6.className = 'logo_imperio'
-        s1_img6.src = capa_eps[6]
+        s1_img6.src = capa_eps[1]
         s1_img6.style = "width: 20%; opacity: 1;"
 
         s1_p6.innerHTML = '6'
@@ -464,7 +436,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[1]
             
@@ -484,7 +456,7 @@ function myeps(){
         s1_btn_eps7.className = 'btn_eps'
         s1_btn_eps7.id = 's1_btn_eps7'
         s1_img7.className = 'logo_imperio'
-        s1_img7.src = capa_eps[7]
+        s1_img7.src = capa_eps[1]
         s1_img7.style = "width: 20%; opacity: 1;"
 
         s1_p7.innerHTML = '7'
@@ -502,14 +474,13 @@ function myeps(){
             let play_temporadas = document.getElementById('temporadas')
             let play_video = document.getElementById('play_video')
 
-
             play_temporadas.setAttribute('style','display:none')
             btn_fechar.setAttribute('style','display:block')
             play_video.setAttribute('style','display:block')
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[1]
             
@@ -529,7 +500,7 @@ function myeps(){
         s1_btn_eps8.className = 'btn_eps'
         s1_btn_eps8.id = 's1_btn_eps8'
         s1_img8.className = 'logo_imperio'
-        s1_img8.src = capa_eps[8]
+        s1_img8.src = capa_eps[1]
         s1_img8.style = "width: 20%; opacity: 1;"
 
         s1_p8.innerHTML = '8'
@@ -553,7 +524,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[8]
             
@@ -573,7 +544,7 @@ function myeps(){
         s1_btn_eps9.className = 'btn_eps'
         s1_btn_eps9.id = 's1_btn_eps9'
         s1_img9.className = 'logo_imperio'
-        s1_img9.src = capa_eps[9]
+        s1_img9.src = capa_eps[1]
         s1_img9.style = "width: 20%; opacity: 1;"
 
         s1_p9.innerHTML = '9'
@@ -597,7 +568,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[1]
             
@@ -617,7 +588,7 @@ function myeps(){
         s1_btn_eps10.className = 'btn_eps'
         s1_btn_eps10.id = 's1_btn_eps10'
         s1_img10.className = 'logo_imperio'
-        s1_img10.src = capa_eps[10]
+        s1_img10.src = capa_eps[1]
         s1_img10.style = "width: 20%; opacity: 1;"
 
         s1_p10.innerHTML = '10'
@@ -641,7 +612,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[1]
             
             videoPlayer.src = caminho + eps_[1]
             
@@ -710,7 +681,7 @@ function myeps(){
         s2_btn_eps1.className = 'btn_eps'
         s2_btn_eps1.id = 's2_btn_eps1'
         s2_img1.className = 'logo_imperio'
-        s2_img1.src = capa_eps[11]
+        s2_img1.src = capa_eps[2]
         s2_img1.style = "width: 20%; opacity: 1;"
 
         s2_p1.innerHTML = '1'
@@ -734,7 +705,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[11]
             
@@ -755,7 +726,7 @@ function myeps(){
         s2_btn_eps2.className = 'btn_eps'
         s2_btn_eps2.id = 's2_btn_eps2'
         s2_img2.className = 'logo_imperio'
-        s2_img2.src = capa_eps[12]
+        s2_img2.src = capa_eps[2]
         s2_img2.style = "width: 20%; opacity: 1;"
 
         s2_p2.innerHTML = '2'
@@ -779,7 +750,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[12]
             
@@ -799,7 +770,7 @@ function myeps(){
         s2_btn_eps3.className = 'btn_eps'
         s2_btn_eps3.id = 's2_btn_eps3'
         s2_img3.className = 'logo_imperio'
-        s2_img3.src = capa_eps[13]
+        s2_img3.src = capa_eps[2]
         s2_img3.style = "width: 20%; opacity: 1;"
 
         s2_p3.innerHTML = '3'
@@ -823,7 +794,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[13]
             
@@ -843,7 +814,7 @@ function myeps(){
         s2_btn_eps4.className = 'btn_eps'
         s2_btn_eps4.id = 's2_btn_eps4'
         s2_img4.className = 'logo_imperio'
-        s2_img4.src = capa_eps[14]
+        s2_img4.src = capa_eps[2]
         s2_img4.style = "width: 20%; opacity: 1;"
 
         s2_p4.innerHTML = '4'
@@ -867,7 +838,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[14]
             
@@ -887,7 +858,7 @@ function myeps(){
         s2_btn_eps5.className = 'btn_eps'
         s2_btn_eps5.id = 's2_btn_eps5'
         s2_img5.className = 'logo_imperio'
-        s2_img5.src = capa_eps[15]
+        s2_img5.src = capa_eps[2]
         s2_img5.style = "width: 20%; opacity: 1;"
 
         s2_p5.innerHTML = '5'
@@ -911,7 +882,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[15]
             
@@ -931,7 +902,7 @@ function myeps(){
         s2_btn_eps6.className = 'btn_eps'
         s2_btn_eps6.id = 's2_btn_eps6'
         s2_img6.className = 'logo_imperio'
-        s2_img6.src = capa_eps[16]
+        s2_img6.src = capa_eps[2]
         s2_img6.style = "width: 20%; opacity: 1;"
 
         s2_p6.innerHTML = '6'
@@ -955,7 +926,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[16]
             
@@ -975,7 +946,7 @@ function myeps(){
         s2_btn_eps7.className = 'btn_eps'
         s2_btn_eps7.id = 's2_btn_eps7'
         s2_img7.className = 'logo_imperio'
-        s2_img7.src = capa_eps[17]
+        s2_img7.src = capa_eps[2]
         s2_img7.style = "width: 20%; opacity: 1;"
 
         s2_p7.innerHTML = '7'
@@ -999,7 +970,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[17]
             
@@ -1019,7 +990,7 @@ function myeps(){
         s2_btn_eps8.className = 'btn_eps'
         s2_btn_eps8.id = 's2_btn_eps8'
         s2_img8.className = 'logo_imperio'
-        s2_img8.src = capa_eps[18]
+        s2_img8.src = capa_eps[2]
         s2_img8.style = "width: 20%; opacity: 1;"
 
         s2_p8.innerHTML = '8'
@@ -1043,7 +1014,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[18]
             
@@ -1063,7 +1034,7 @@ function myeps(){
         s2_btn_eps9.className = 'btn_eps'
         s2_btn_eps9.id = 's2_btn_eps9'
         s2_img9.className = 'logo_imperio'
-        s2_img9.src = capa_eps[19]
+        s2_img9.src = capa_eps[2]
         s2_img9.style = "width: 20%; opacity: 1;"
 
         s2_p9.innerHTML = '9'
@@ -1087,7 +1058,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[19]
             
@@ -1107,7 +1078,7 @@ function myeps(){
         s2_btn_eps10.className = 'btn_eps'
         s2_btn_eps10.id = 's2_btn_eps10'
         s2_img10.className = 'logo_imperio'
-        s2_img10.src = capa_eps[20]
+        s2_img10.src = capa_eps[2]
         s2_img10.style = "width: 20%; opacity: 1;"
 
         s2_p10.innerHTML = '10'
@@ -1131,7 +1102,7 @@ function myeps(){
                 
             let videoPlayer = document.querySelector(".videoPlayer")
 
-            videoPlayer.poster =  capa
+            videoPlayer.poster =  capa_video[2]
             
             videoPlayer.src = caminho + eps_[20]
             
