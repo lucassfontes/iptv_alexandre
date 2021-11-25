@@ -19,7 +19,7 @@ function sair(){
     window.location.href='../index.html'
 }
 
-function fecha_video(){
+/*function fecha_video(){
 
     let play_list = document.getElementById('play-list')
     let play_video = document.getElementById('play_video')
@@ -33,21 +33,21 @@ function fecha_video(){
     play_list.setAttribute('style','display:flex')
     play_video.setAttribute('style','display:none')
     
-}
+}*/
 
-function fecha_list(){
+/*function fecha_list(){
 
     let play_list = document.getElementById('play-list')
     let conteudo = document.getElementById('conteudo')
 
     play_list.setAttribute('style','display:none')
     conteudo.setAttribute('style','display:block') 
-}
+}*/
 
 
 /*Lista de conteudo*/
 
-function list_imperio(){
+/*function list_imperio(){
 
     let conteudo = document.getElementById('conteudo')
     let play_list = document.getElementById('play-list')
@@ -57,7 +57,7 @@ function list_imperio(){
     play_list.setAttribute('style','display:flex')
     titulo.innerHTML = "Expresso do Amanhã"
 
-} 
+}*/
 
 
 function expresso_amanha(){

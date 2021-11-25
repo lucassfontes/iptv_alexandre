@@ -136,7 +136,8 @@ function fechar_video(){
 }
 
 function volta(){
-    window.location.href='/pgs/home.html'
+    window.location.href= '/pgs/home.html'
+    //__dirname + "/src/index.html"
 }
     
 

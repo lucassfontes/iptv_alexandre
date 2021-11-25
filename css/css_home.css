@@ -10,6 +10,13 @@ body{
     background-color: #141414;
 }
 
+#container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
 .logo{
     display: flex;
     padding: 15px 20px;
@@ -17,6 +24,7 @@ body{
 }
 
 #conteudo{
+    display:flex;
     margin: 11px;
     background-color:#141414;
     width: 100%;
@@ -24,39 +32,44 @@ body{
 }
 
 .poste{
-    display:inline-block;
-    margin-left: 20px;
-    margin-bottom: 0px;
-    width: 245px;
-    height: 145px;
-
-}
-
-.img-logo{
+    display: flex;
+    justify-content: center;
+    padding: .1%;
+    margin: .5%;
     width: 250px;
     height: 150px;
-    border-radius: 5px;
 }
 
-.img-logo:hover{
-    width: 260px;
-    height: 160px;
-    
-    transition: all .4s ease-in;
-}
 
 .contem{
-    background-color: transparent;
-    border:none;
-    box-shadow: #00000080;
-    width: 250px;
-    height: 150px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 5%;
+
+    -webkit-transition: width .5s, higth .5s, -webkit-transform .5s;
+    transition: width .5s, higth .5s, transform .5s;
+    
 }
 
 .contem:hover{
+    -webkit-transform: scale(108%);
+    transform: scale(108%);
     background-color: transparent;
-    color: rgb(0, 0, 0);
+}
 
+#expresso_amanha{
+    background-image:url(https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABck2lTqVpya4XivwKsn5hEVmE4cAr3P4y4OHNcsozqXyQ7c5s6phBlndVApZ5A7XGN378fmnyjlYvhupgBSsf5MExpfdfIOeO-FF8-2WBWMhSB65nr3rv9SK0CQcew.jpg?r=6c2);
+}
+
+
+#game_of_thrones{
+    background-image:url(https://www.asiamediajournal.com/wp-content/uploads/2020/10/Index-Of-Game-Of-Thrones-696x399.png);
 }
 
 button{
@@ -81,55 +94,6 @@ button:hover{
 
 }
 
-/* Video Player */
-
-#container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 1em;
-}
-
-#play_video{
-    background-color: #000000;
-    padding: 1vh;
-    border-radius: 1vh;
-    width: 109vh;
-    height: 62.5vh;
-    display: block;
-    
-}
-
-.fechar{
-    position: relative;
-    width: 25px;
-    height: 25px;
-    margin-top: -8px;
-    margin-left: 605px;
-    color: #4b4b4b;
-    border: none ;
-    font-size: 25pt;
-    
-}
-
-.fechar:hover{
-    color: #000000;
-    background-color: transparent;
-
-}
-
-#fecha_list{
-    margin-top: -5px;
-    margin-left: -38px
-}
-
-.videoPlayer{
-    background-color: #000000;
-    position: absolute;
-    width: 109vh;
-    height: 63vh;
-    border-radius: 1vh;
-}
 
 #log{
     margin-left: 69.1em;
@@ -157,116 +121,76 @@ h2{
 }
 
 
-/*#netflix_font{
-    width: auto;
-    height: auto;
-    max-width: 110px;
-    max-height: 40px;
-    font-size: 25pt;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #e50914;
-}*/
-
 /* IPHONE x*/
 
 @media screen and (max-width:800px ) {
-
-    #serie{
-        background-color: #000000;
-        padding: .5vh;
-        border-radius: 1vh;
-        width: 45vh;
-        height: 31vh;
-        margin-left: 1vh;
-        margin-right: 1vh;
-        
-    }
-
-    #netflix_font{
-        margin-top: 2px;
-        width: auto;
-        height: auto;
-        max-width: 110px;
-        max-height: 40px;
-        font-size: 20pt;
-        text-decoration: none;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #e50914;
-    }
 
     #container{
         margin-top: 1rem;
     }
 
     #conteudo{
-
         display: flex;
         justify-content: center;
-    }
-
-    .contem{
+        margin: 1rem;
+        background-color: blue;
         width: 100%;
         height: 100%;
     }
-
-
 
     .poste{
-        margin-left: 1%;
-        margin-right: 1%;
-        margin-bottom: -1%;
-        margin-top: 1%;
-        width: 100%;
-        height: 100%;
-    }
-
-    .img-logo{
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;
-    }
-
-    .img-logo:hover{
-        width: 167px;
-        height: 84px;
-        transition: all .4s ease-in;
+        display: flex;
+        justify-content: center;
+        padding: .1rem;
+        margin: 0.1rem;
+        width: 11rem;
+        height: 6rem;
+        background-color: rgb(255, 0, 0);
     }
     
-    .videoPlayer{
-        width: 45vh;
-        height: 25.5vh;
-        border-radius: 1vh;
+    
+    .contem{
+        display: flex;
+        justify-content: center;
+        margin:0.1rem;
+        width: 11rem;
+        height: 6rem;
+        -webkit-transition: width .5s, higth .5s, -webkit-transform .5s;
+        transition: width .5s, higth .5s, transform .5s;
+        background-color: #ffffff;
         
     }
     
-    .opcao{
-        margin-top: 0vh;
-        width: 13vh;
-        height: 5vh;
-        font-size: 2vh;
-    }
-
-    #sair{
-        margin-top: -8px;
-        margin-left: 0.5vh;
-        font-size: 2vh;
-        padding: 0.1vh;
+    .contem:hover{
+        -webkit-transform: scale(108%);
+        transform: scale(108%);
+        background-color: transparent;
     }
 
     #log{
-        font-size: 5pt;
-        margin-left: 15em;
-        margin-top:2px;
+        margin-left: 34%;
+        margin-top: 0.1rem;
         width: 100%;
-        height: 5vh;
+        height: 1.2rem;
         display: flex;
+        background-color: red;
+    }
+
+    #sair{
+        margin-top: 0rem;
+        margin-left: 1rem;
+        font-size: .8rem;
+        padding: .1rem;
+
+        width: 1.8rem;
+        height: 1rem;
     }
 
     h2{
-        padding: 0.1vh;
-        margin-left: 1vh;
-        font-size: 2vh;
+        margin-top: 0rem;
+        margin-left: 1rem;
+        padding: .1rem;
+        font-size: .8rem;
         color: white;
     
     }
