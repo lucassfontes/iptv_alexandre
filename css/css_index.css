@@ -40,10 +40,10 @@ h1{
 .label-float input{
     width: 95%;
     line-height: 30px;
-    padding: 11px 9px 0;
+    padding: 10px 9px 0;
     display: inline-block;
     border: 0;
-    border-radius: 3%;
+    border-radius: 4px;
     /*border-bottom: 0px solid rgb(255, 0, 0);*/
     background-color: #333333;
     outline: none;
@@ -83,14 +83,13 @@ h1{
 }
 
 button{
-    width: 100%;
+    width: 102%;
     background-color: #e50914;
     border: none;
     color: #fff;
     padding: 7px;
-    font-weight: bold;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     outline: none;
     transition: all .3s ease-out;
@@ -103,11 +102,7 @@ button:hover{
     
 }
 
-.justify-center{
-    display: flex;
-    justify-content: center;
 
-}
 hr{
     margin-top: 5%;
     margin-bottom: 10%;
@@ -135,8 +130,8 @@ a:hover{
 #eye{
     
     position: absolute;
-    top: 25px;
-    right: 10px;
+    top: 45%;
+    right: 4%;
     cursor: pointer;
     color: #fff;
     
@@ -149,8 +144,8 @@ a:hover{
 #eye-slash{
     display: none;
     position: absolute;
-    top: 25px;
-    right: 10px;
+    top: 45%;
+    right: 4%;
     cursor: pointer;
     color: #fff;
 }
@@ -161,7 +156,6 @@ a:hover{
 
 #msgError{
     width: 270px;
-    
     padding-top: 10px;
     font-size: 8pt;
     margin: 0 0 0;
@@ -171,7 +165,7 @@ a:hover{
 
 /*RESPONSIVIDADE TELA VIRADA SMARTPHONE*/
 
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
     body{
         background-image: none;
         background-color:rgb(0, 0, 0);
@@ -229,25 +223,27 @@ a:hover{
         top: 25px;
     }
 
-}
+}*/
 
 
 /*RESPONSIVIDADE TELA NORMAL SMARTPHONE*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 800px) {
     body{
         background-image: none;
         background-color:rgb(0, 0, 0);
     }
 
     .container{
+        
         width: 100%;
         margin-top: 5vh;
     }
 
     .card{
+        width: 90%;
         background-color: transparent;
-        padding: 20px;
+        padding: 20px; 
     }
 
     h1{
@@ -262,19 +258,16 @@ a:hover{
     
     }
 
-    .label-float input{
-        width: 100%;
-    }
+    button{
+        width: 99%;
 
-    .justify-center{
-        width: 108%;
-        margin-top: 2vh;
+        margin-top: 1rem;
     }
 
     hr{
         margin-top: 2vh;
         margin-bottom: 2%;
-        width: 106%;
+        width: 100%;
     }
 
     p{
@@ -283,14 +276,13 @@ a:hover{
         width: 108%;
     }
 
-    #eye{
-        top: 25px;
-        right: -7px;
-    }
-
-    #eye-slash{
-        top: 25px;
-        right: -7px;
+    #msgError{
+        width: 100%;
+        padding-top: 10px;
+        font-size: 8pt;
+        margin: 0 0 0;
+        color:#ff9100;
+        display: none;
     }
 
 }
