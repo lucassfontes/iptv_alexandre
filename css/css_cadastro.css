@@ -44,7 +44,7 @@ h1{
     padding: 11px 9px 0;
     display: inline-block;
     border: 0;
-    border-radius: 3%;
+    border-radius: 4px;
     /*border-bottom: 0px solid rgb(255, 0, 0);*/
     background-color: #333333;
     outline: none;
@@ -188,7 +188,6 @@ a:hover{
 
 #msgError{
     width: 270px;
-    
     padding-top: 5px;
     font-size: 10pt;
     margin: 0 0 0;
@@ -209,13 +208,12 @@ a:hover{
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-top: 1vh;
     }
 
     .card{
         background-color: transparent;
-        padding: 20px;
-        margin-top: 1vh;
+        padding: 15px;
+        margin-top: .1em;
     }
 
     h1{
@@ -286,13 +284,14 @@ a:hover{
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-top: 5vh;
+        margin-top: .1rem;
     }
 
     .card{
+        width: 100%;
         background-color: transparent;
-        padding: 20px;
-        margin: 5vh 5vh 5vh;
+        padding: 15px;
+        margin-right: 1rem;
     }
 
     h1{
@@ -307,13 +306,13 @@ a:hover{
     .justify-center{
         display: flex;
         justify-content: center;
-        width: 107%;
+        width: 105%;
     }
 
     hr{
         margin-top: 4%;
         margin-bottom: 2%;
-        width: 107%;
+        width: 105%;
     }
 
     p{
