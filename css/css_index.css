@@ -53,6 +53,7 @@ h1{
 }
 
 .label-float{
+    width: 100%;
     position: relative;
     padding-top: 13px;
     margin-top: 5%;
@@ -241,9 +242,9 @@ a:hover{
     }
 
     .card{
-        width: 90%;
+        width: 85%;
         background-color: transparent;
-        padding: 20px; 
+        padding: 20px;
     }
 
     h1{
@@ -252,6 +253,7 @@ a:hover{
     }
 
     .label-float{
+        width: 100%;
         padding-top: 11px;
         margin-top: 1%;
         margin-bottom: 1%;
@@ -259,14 +261,13 @@ a:hover{
     }
 
     button{
-        width: 99%;
-
+        width: 100%;
         margin-top: 1rem;
     }
 
     hr{
-        margin-top: 2vh;
-        margin-bottom: 2%;
+        margin-top: 6%;
+        margin-bottom: 3%;
         width: 100%;
     }
 
