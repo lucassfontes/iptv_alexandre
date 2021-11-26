@@ -50,14 +50,15 @@ button:hover{
 }
 
 #fechar{
-    margin-top: 0.1em;
-    margin-left: 3em;
-    width: 1.5em;
-    height: 1.5em;
-    font-size: 2em;
+    margin-top: -1%;
+    margin-left: 96%;
+    width: 1.2em;
+    height: 1.2em;
+    font-size: 1.8em;
     padding: 0;
     border: none;
-    display: none
+    display: none;
+    border-radius: 50%;
 }
 
 .logo{
@@ -75,10 +76,9 @@ button:hover{
 }
 
 #play_video{
-    position:absolute;
     background-color: #000000;
-    padding: 1vh;
-    border-radius: 1vh;
+    padding: 0%;
+    border-radius: 4px;
     width: 109vh;
     height: 62.5vh;
     display: none; 
@@ -89,7 +89,7 @@ button:hover{
     position: absolute;
     width: 109vh;
     height: 63vh;
-    border-radius: 1vh;
+    border-radius: 4px;
 }
 
 #temporadas{
@@ -194,14 +194,14 @@ p{
 
 /* IPHONE x*/
 
-@media screen and (max-width:500px ) {
+@media screen and (max-width:800px ) {
 
     #container{
         display: flex;
         justify-content: center;
         width: 100%;
         margin-top: 1em;;
-        background-color:#141414;  
+        background-color:#141414; 
     }
 
     #temporadas{
@@ -268,7 +268,7 @@ p{
     #x{
         position: absolute;
         margin-left: 85%;
-        margin-top: 1.5%;
+        margin-top: 1%;
         width: 2rem;
         height: 2rem;
         border-radius: 50%;
@@ -277,31 +277,29 @@ p{
     }
 
     #play_video{
-        position:absolute;
+        margin: 1px;
         background-color: #000000;
-        padding: 1vh;
-        border-radius: 1vh;
-        width: 40vh;
-        height: 23vh;
-        display: none; 
+        padding: 0px;
+        border-radius: 4px;
+        width: 95%;
+        height: 100%;  
+        display: none;
     }
 
     .videoPlayer{
-        
+        margin-top: 10%;
         background-color: #000000;
-        position: absolute;
-        width: 40vh;
-        height: 23vh;
-        border-radius: 1vh;
-        
+        width: 95%;
+        height: 45%;
     }
 
     #fechar{
-        margin-top: 0.3em;
-        margin-left: -.4em;
-        width: 1.5em;
-        height: 1.5em;
-        font-size: 2em;
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 86%;
+        width: 1.2em;
+        height: 1.2em;
+        font-size: 1.8em;
         padding: 0;
         border: none;
         display: none;
