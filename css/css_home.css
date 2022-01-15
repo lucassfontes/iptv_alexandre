@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #141414;
+}
+
+#container{
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    padding: 15px 20px;
+    font-size: 10pt;
+}
+
+#conteudo{
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.poste{
+    width: 15.2vw;
+    height: 10vw;
+    margin: .1%;
+    padding: .1%;
+    
+}
+
+.contem{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 11px;
+
+    -webkit-transition: width .5s, higth .5s, -webkit-transform .5s;
+    transition: width .5s, higth .5s, transform .5s;
+    
+}
+
+.contem:hover{
+    -webkit-transform: scale(108%);
+    transform: scale(108%);
+    background-color: transparent;
+}
+
+button{
+    width: 26vh;
+    background-color: transparent;
+    border-color:transparent;
+    color: #ffffff;
+    padding: 0.5vh;
+    font-weight: bold;
+    font-size: 2.5vh;
+    margin-top: 0vh;
+    border-radius: .7vh;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+    
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+
+}
+
+
+#log{
+    margin-left: 72%;
+    margin-top: 0.1rem;
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    
+}
+
+#sair{
+    margin-top: -.3rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    padding: .1rem;
+    width: 2.5rem;
+    height: 2rem;
+}
+
+h2{
+    margin-top: 0rem;
+    margin-left: -8rem;
+    padding: .1rem;
+    font-size: 1rem;
+    color: #ffffff;
+
+}
+
+#expresso_amanha{
+    background-image:url(https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABck2lTqVpya4XivwKsn5hEVmE4cAr3P4y4OHNcsozqXyQ7c5s6phBlndVApZ5A7XGN378fmnyjlYvhupgBSsf5MExpfdfIOeO-FF8-2WBWMhSB65nr3rv9SK0CQcew.jpg?r=6c2);
+}
+
+
+#game_of_thrones{
+    background-image:url(https://www.asiamediajournal.com/wp-content/uploads/2020/10/Index-Of-Game-Of-Thrones-696x399.png);
+}
+
+#peaky_blinders{
+    background-image:url(https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWV-OtG3j1B4OsGYhz7Vw3ZMRMVeg4fY0I_crLKXzaQjoIX3Ngv4e_wJM29ZcMOlBvaJlY4R1LdH2F689rqELk3Xy4KvRIRXQiWITSELCWCi6zpI2R1Z_UBEObJ8.jpg?r=e6b);
+}
+
+#wanda_vision{
+    background-image:url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/498A4C644BC48D8A29039338314CA343B48D57275FEC7E3F2F12A0383B0789F1/scale?width=1200&aspectRatio=1.78&format=jpeg);
+}
+
+#the_umbrella_academy{
+    background-image:url(https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVp2asRLMqBDtgNX3bwzallgbvVwPg5d8BWUMuJjnesDoy8BJjjcirT4IRdWrCopjNdbNpCPdUE0OJgqe6x5va-SB5rn9rDEYtFtFCMg1hLGNmIJ7oszYvXw-opz.jpg?r=9a7);
+}
+
+#round_6{
+    background-image:url(https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABReYTAS3KP6hra7TTCurMUFYAozilA2mnTSAg5DfqJk3mZ8S2gV-v7KFTFl5piepQswyNN_PvRZEUpSdibE8zQlAV9G-srZzmlgNEIQlel-Ed1puW4CSPEPkUBNn.jpg?r=d24);
+}
+
+#ultimo_dragao{
+    background-image:url(https://oc2-0-767-1335.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYO87kXbQVXax8hu8CL-El-jx8WSx3Sf9V821jC5HxiMBCzZFh6l0heT9bVGOAU2nSE3dUsUz9jkB1epFS9vwucQVABEjhcDkxR3EfHlrZlGVUkMFxK_YB0DH6mj.jpg?r=e2e);
+}
+
+#supernatural{
+    background-image:url(https://1.bp.blogspot.com/-i2IFmL3iwUk/X8ucQ7VlCYI/AAAAAAABJ4k/PAweQTgCT2UxYNfSN_GiCLc_3CuzWLPyQCLcBGAsYHQ/w640-h360/SPN_S15_Promo3_1920x1080_F-WCCB-THURSDAYS.jpg);
+}
+
+/* IPHONE x*/
+
+@media screen and (max-width:800px ) {
+
+    .poste{
+        width: 43vw;
+        height: 55vw;
+        margin: 1%;
+        padding: .1%; 
+    }
+    
+    
+    .contem{
+        margin: 0.5%;
+        width: 100%;
+        -webkit-transition: width .5s, higth .5s, -webkit-transform .5s;
+        transition: width .5s, higth .5s, transform .5s;
+        
+    }
+    
+    .contem:hover{
+        -webkit-transform: scale(108%);
+        transform: scale(108%);
+        background-color: transparent;
+    }
+
+    button{
+        width: 100%;
+        background-color: transparent;
+        border-color:transparent;
+        color: #ffffff;
+        padding: 0.5vh;
+        font-weight: bold;
+        font-size: 2.5vh;
+        margin-top: 0vh;
+        border-radius: .7vh;
+        cursor: pointer;
+        outline: none;
+        transition: all .3s ease-out;
+        
+    }
+
+    #log{
+        margin-left: 1vw;
+        margin-top: 0.1rem;
+        width: 100%;
+        height: 1.2rem;
+        display: flex;
+        
+    }
+
+    #sair{
+        margin-top: 1.5vw;
+        margin-left: 3vw;
+        font-size: 4vw;
+        padding: .1vw;
+        height: 1vw;
+    }
+
+    h2{
+        margin-top: 2vw;
+        margin-left: 1vw;
+        padding: .1vw;
+        font-size: 4vw;
+        color: #ffffff;
+    }
+
+    #expresso_amanha{
+        background-image:url(https://br.web.img2.acsta.net/c_310_420/pictures/20/01/17/12/42/3089665.jpg);
+    }
+    
+    
+    #game_of_thrones{
+        background-image:url(https://br.web.img2.acsta.net/c_310_420/pictures/19/03/21/16/15/4239577.jpg);
+    }
+    
+    #peaky_blinders{
+        background-image:url(https://br.web.img3.acsta.net/c_310_420/pictures/15/03/11/17/20/597260.jpg);
+    }
+    
+    #wanda_vision{
+        background-image:url(https://br.web.img2.acsta.net/c_310_420/pictures/20/12/11/10/34/0902853.jpg);
+    }
+    
+    #the_umbrella_academy{
+        background-image:url(https://br.web.img2.acsta.net/c_310_420/pictures/18/12/10/14/01/0178829.jpg);
+    }
+    
+    #round_6{
+        background-image:url(https://br.web.img3.acsta.net/c_310_420/pictures/21/09/14/18/49/5442347.jpg);
+    }
+
+    #ultimo_dragao{
+        background-image:url(https://br.web.img2.acsta.net/c_225_300/pictures/19/10/03/21/14/4288632.jpg);
+    }
+
+    #supernatural{
+        background-image:url(https://br.web.img2.acsta.net/c_310_420/pictures/18/11/12/13/38/3629995.jpg);
+    }
+
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../series.css">
+
+    <link rel="shortcut icon" href="https://fontmeme.com/permalink/211216/7a95c79b12a647fffe61a6e392eeb85f.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Supernatural-NetMix</title>
+    
+</head>
+    <body>
+        
+        <div class="logo">
+            <a href="/pgs/home.html">
+
+                <img src="https://fontmeme.com/permalink/211216/79f207cfe6ddd3cc61a2269d400dd12f.png" alt="netflix-font" border="0">
+                
+            </a>
+
+        </div> <!-- logo -->
+
+        <div id="container">
+                
+            <div id="play_video">
+          
+                <video src=""  class="videoPlayer"  controls     preload="metadata" poster=""></video>
+
+                <button id="fechar" onclick="fechar_video()">X</button>
+
+            </div> <!-- play-video -->
+            
+            <div id="temporadas">
+                
+                <div id="play-temp">
+                
+                    <video id="triler" class="type_logo" autoplay loop preload="metadata"></video>
+
+                    <button id="x" onclick="volta()">X</button>
+
+                    <button id="mute" onclick="mute()">
+
+                        <i id="off" class="fas fa-volume-off"></i>
+                        <i id="on" class="fas fa-volume-up"></i>
+
+                    </button>
+
+                </div> <!-- play-temp -->
+
+                <h2>Episódios</h2>
+
+                <select class="sele" id="temp" name="tempChage" onchange="myeps()">
+                
+                    <option class="opt" id="temp0" value="temp" selected>Selecione</option>
+                    <option class="opt" id="temp1" value="temp1">Temporada 1</option>
+                    <option class="opt" id="temp2" value="temp2">Temporada 2</option>
+                    <option class="opt" id="temp3" value="temp3">Temporada 3</option>
+                    <option class="opt" id="temp4" value="temp4">Temporada 4</option>
+                    <option class="opt" id="temp5" value="temp5">Temporada 5</option>
+                    <option class="opt" id="temp6" value="temp6">Temporada 6</option>
+                    <option class="opt" id="temp7" value="temp7">Temporada 7</option>
+                    <option class="opt" id="temp8" value="temp8">Temporada 8</option>
+                    <option class="opt" id="temp9" value="temp9">Temporada 9</option>
+                    <option class="opt" id="temp10" value="temp10">Temporada 10</option>
+                    <option class="opt" id="temp11" value="temp11">Temporada 11</option>
+                    <option class="opt" id="temp12" value="temp12">Temporada 12</option>
+                    <option class="opt" id="temp13" value="temp13">Temporada 13</option>
+                    <option class="opt" id="temp14" value="temp14">Temporada 14</option>
+                    <option class="opt" id="temp15" value="temp15">Temporada 15</option>
+
+                </select>
+
+                <div id="episodios">
+
+                </div>
+
+            </div>
+
+        </div> <!-- container -->
+
+        <script type="module" src="supernatural.js"></script>
+
+    </body>
+
+</html>
+
