@@ -7,12 +7,12 @@ const app = express()
 
 app.get("/alisson", async(req, res) => {
     //res.sendFile(__dirname + '/alisson-full.m3u')
-    res.redirect('http://acsa.ws:80/get.php?username=lucassfontessantos&password=Br452668')
+    res.redirect('**')
 })
 
 app.get("/junior", async(req, res) => {
     //res.sendFile(__dirname + '/alisson-full.m3u')
-    res.redirect('http://acsa.ws:80/get.php?username=lucassfontessantos&password=Br452668')
+    res.redirect('**')
 })
 
 app.listen(3001, () => {
