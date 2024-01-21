@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Tarifario</title>
+</head>
+
+  <body>
+      <div class="container-sm">
+      
+          <br>
+
+          <form class="row g-2">
+           
+            <div class="input-group mb-3">
+
+              <span class="input-group-text btn-dark " id="basic-addon1">TARIFA HOJE R$</span>
+
+              <input type="number" id="vl_tarifa" class="form-control border border-dark" aria-label="Username" aria-describedby="basic-addon1">
+
+              <button type="button" on id="buscar" class="btn btn-outline-dark">BUSCAR</button>
+
+            </div>
+
+            <div class="col-12 table-responsive-sm">
+                  
+              <table class="table table-dark table-striped table-hover table-sm table-bordered">
+                  <thead class='table-dark'>
+                    <tr>
+                      <th scope="col-auto">DOMINGO</th>
+                      <th scope="col-auto">SEGUNDA</th>
+                      <th scope="col-auto">TERÇA</th>
+                      <th scope="col-auto">QUARTA</th>
+                      <th scope="col-auto">QUINTA</th>
+                      <th scope="col-auto">SEXTA</th>
+                      <th scope="col-auto">SABADO</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"></th>
+                      <td id="dt_1" class="col-auto"></td>
+                      <td id="dt_2" class="col-auto"></td>
+                      <td id="dt_3" class="col-auto"></td>
+                      <td id="dt_4" class="col-auto"></td>
+                      <td id="dt_5" class="col-auto"></td>
+                      <th id="dt_6" scope="row"></th>
+                    </tr>
+                    <tr>
+                      <th id="dt_7" scope="row"></th>
+                      <td id="dt_8" class="col-auto"></td>
+                      <td id="dt_9" class="col-auto"></td>
+                      <td id="dt_10" class="col-auto"></td>
+                      <td id="dt_11" class="col-auto"></td>
+                      <td id="dt_12" class="col-auto"></td>
+                      <th id="dt_13" scope="row"></th>
+                    </tr>
+                    <tr>
+                      <th id="dt_14" scope="row"></th>
+                      <td id="dt_15" class="col-auto"></td>
+                      <td id="dt_16" class="col-auto"></td>
+                      <td id="dt_17" class="col-auto"></td>
+                      <td id="dt_18" class="col-auto"></td>
+                      <td id="dt_19" class="col-auto"></td>
+                      <th id="dt_20" scope="row"></th>
+                    </tr>
+                    <tr>
+                      <th id="dt_21" scope="row" ></th>
+                      <td id="dt_22" class="col-auto"></td>
+                      <td id="dt_23" class="col-auto"></td>
+                      <td id="dt_24" class="col-auto"></td>
+                      <td id="dt_25" class="col-auto"></td>
+                      <td id="dt_26" class="col-auto"></td>
+                      <th id="dt_27" scope="row"></th>
+                    </tr>
+                    <tr>
+                      <th id="dt_28" scope="row"></th>
+                      <td id="dt_29" class="col-auto"></td>
+                      <td id="dt_30" class="col-auto"></td>
+                      <td id="dt_31" class="col-auto"></td>
+                      <td class="col-auto"></td>
+                      <td class="col-auto"></td>
+                      <th scope="row"></th>
+                    </tr>
+                    
+                  </tbody>
+              </table>
+          </div>
+
+            <div class="col-12 table-responsive-sm">
+                  
+                  <table class="table table-dark table-stripedd table-hover table-xxl table-bordered">
+                      <thead class='table-dark'>
+                        <tr>
+                          <th scope="col-auto">TIPO</th>
+                          <th scope="col-auto">TARIFA</th>
+                          <th scope="col-auto">CAFE</th>
+                          <th scope="col-auto">SUD TOTAL</th>
+                          <th scope="col-auto">ISS</th>
+                          <th scope="col-auto">TOTAL</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1 PESSOA SEM CAFE</th>
+                          <td id="P_1_S_C_TARIFA" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_S_C_CAFE" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_S_C_SUBTOTAL" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_S_C_ISS" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_S_C_TARIFA_TOTAL" class="col-auto">R$ 0.00</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2 PESSOA SEM CAFE</th>
+                          <td id="P_2_S_C_TARIFA" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_S_C_CAFE" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_S_C_SUBTOTAL" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_S_C_ISS" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_S_C_TARIFA_TOTAL" class="col-auto">R$ 0.00</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3 PESSOA SEM CAFE</th>
+                          <td id="P_3_S_C_TARIFA" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_S_C_CAFE" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_S_C_SUBTOTAL" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_S_C_ISS" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_S_C_TARIFA_TOTAL" class="col-auto">R$ 0.00</td>
+                        </tr>
+                        <tr>
+                          <th class='table-dark' scope="row"></th>
+                          <td class="col-auto table-dark"></td>
+                          <td class="col-auto table-dark"></td>
+                          <td class="col-auto table-dark"></td>
+                          <td class="col-auto table-dark"></td>
+                          <td class="col-auto table-dark"></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">1 PESSOA COM CAFE</th>
+                          <td id="P_1_C_C_TARIFA" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_C_C_CAFE" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_C_C_SUBTOTAL" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_C_C_ISS" class="col-auto">R$ 0.00</td>
+                          <td id="P_1_C_C_TARIFA_TOTAL" class="col-auto">R$ 0.00</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2 PESSOA COM CAFE</th>
+                          <td id="P_2_C_C_TARIFA" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_C_C_CAFE" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_C_C_SUBTOTAL" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_C_C_ISS" class="col-auto">R$ 0.00</td>
+                          <td id="P_2_C_C_TARIFA_TOTAL" class="col-auto">R$ 0.00</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3 PESSOA COM CAFE</th>
+                          <td id="P_3_C_C_TARIFA" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_C_C_CAFE" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_C_C_SUBTOTAL" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_C_C_ISS" class="col-auto">R$ 0.00</td>
+                          <td id="P_3_C_C_TARIFA_TOTAL" class="col-auto">R$ 0.00</td>
+                        </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </form>
+
+      </div>
+
+      <script src="./script.js"></script>
+      <script src="./date.js"></script>
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      -->
+      
+  </body>
+
+</html>
