@@ -98,14 +98,27 @@
                     <font style="vertical-align: inherit;">Cadastre-se gratuitamente agora</font>
                   </font>
                 </a>
-                <!--  <a class="popup-youtube fs-4 text-inherit ms-3"
-                  href="https://geeks-react.netlify.app/marketing/landings/home-academy/"><img
+                <a id="play" class="popup-youtube fs-4 text-inherit ms-3"
+                  href="#">
+                  <img
                     src="https://geeks-react.netlify.app/static/media/play-btn.6d9c876694a0fc0f743209a4058b5815.svg"
                     alt="" class="me-2">
                   <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Assistir demonstração</font>
                   </font>
-                </a>-->
+                </a>
+                <div class="modal-video" id="modal" tabindex="-1" role="dialog" area-modal="true" aria-label="You just opened the modal video">
+                  <div class="modal-video-body">
+                    <div class="modal-video-inner" style="width: 100%;">
+                      <div class="modal-video-movie-wrap" style="padding-bottom: 56.25%;">
+                        <!--  <iframe id="videoPlay" width="460" height="230" src="//www.youtube.com/embed/JRzWRZahOVU?autoplay=1&amp;cc_load_policy=1&amp;controls=1&amp;disablekb=0&amp;enablejsapi=0&amp;fs=1&amp;iv_load_policy=1&amp;loop=0&amp;rel=0&amp;showinfo=1&amp;start=0&amp;wmode=transparent&amp;theme=dark&amp;mute=0" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" tabindex="-1">
+                        </iframe>-->
+                        <video controls id="videoPlay" style="width: 100%;" style="height: 100%";  src="http://acsa.ws:80/movie/lucassfontessantos/Br452668/34177.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></video>
+                        <button  id="close" class="modal-video-close-btn" aria-label="Close the modal by clicking here"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="d-flex justify-content-center col-lg-6">
@@ -5529,6 +5542,8 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous">
   </script>
+
+  <script src="./js/script.js"></script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
