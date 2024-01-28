@@ -96,187 +96,189 @@
                   </font>
                 </p>
 
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                <button type="button" class="btn btn-primary col-sm-12 col-md-3" data-bs-toggle="modal" data-bs-target="#exampleModal"
                   data-bs-whatever="@mdo">Saiba mais</button>
 
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                  aria-hidden="true">
-                  <div class="modal-dialog modal-lg modal-dialog-center modal-dialog-scrollable">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" id="exampleModalLabel">
-                          <svg xmlns="http://www.w3.org/2000/svg" alt="" width="35" height="30" fill="currentColor"
-                            class="bg-witer text-primary d-inline-block align-text-top bi bi-backpack2-fill" viewBox="0 0 16 16">
-                            <path
-                              d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
-                            <path
-                              d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
-                          </svg> Cadastre-se
-                        </h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        
-                        <form class="row g-3 needs-validation" novalidate>
-                          <div class="col-md-6 position-relative">
-                            <label for="nome" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="Nome" required>
-                          </div>
-                          <div class="col-md-6 position-relative">
-                            <label for="sobre_nome" class="form-label">Sobre nome</label>
-                            <input type="text" class="form-control" id="sobre_nome" required>
-                          </div>
-                          <div class="col-md-6 position-relative">
-                            <label for="email" class="form-label">Email</label>
-                            <div class="input-group has-validation">
-                              <input type="email" class="form-control" id="email" aria-describedby="email" required>
+                <form action="https://formsubmit.co/lucassfontessantos@gmail.com" method="POST">
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-center modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h2 class="modal-title" id="exampleModalLabel">
+                            <svg xmlns="http://www.w3.org/2000/svg" alt="" width="35" height="30" fill="currentColor"
+                              class="bg-witer text-primary d-inline-block align-text-top bi bi-backpack2-fill" viewBox="0 0 16 16">
+                              <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                              <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                            </svg> Cadastre-se
+                          </h2>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-md-6 position-relative">
+                              <label for="nome" class="form-label">Nome</label>
+                              <input type="text" class="form-control" id="Nome" required>
                             </div>
-                          </div>
-                          <div class="col-md-6 position-relative">
-                            <label for="celular" class="form-label">Celular</label>
-                            <input type="text" class="form-control" id="celular" required>
-                          </div>
-                          <div class="col-md-6 position-relative">
-                            <label for="cidade" class="form-label">Cidade</label>
-                            <input type="text" class="form-control" id="cidade" required>
-                          </div>
-                          <div class="col-md-6 position-relative">
-                            <label for="UF" class="form-label">UF</label>
-                            <select class="form-select" id="UF" required>
-                              <option selected disabled value="">Selecione</option>
-                              <option>PA</option>
-                            </select>
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                          Sair
-                        </button>
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">
-                          Iniciar Formulario
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-center modal-lg modal-dialog-scrollable">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" id="exampleModalLabel">
-                          <svg xmlns="http://www.w3.org/2000/svg" alt="" width="35" height="30" fill="currentColor"
-                            class="bg-witer text-primary d-inline-block align-text-top bi bi-backpack2-fill" viewBox="0 0 16 16">
-                            <path
-                              d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
-                            <path
-                              d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
-                          </svg> Formulario
-                        </h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="row">
-
-                          <div class="col-md-6 position-relative">
-                            <label for="instituicao" class="form-label">Instituição</label>
-                            <input type="text" class="form-control" id="instituicao" required>
-                          </div>
-
-                          <div class="col-md-6 position-relative">
-                            <label for="Curso" class="form-label">Curso</label>
-                            <input type="text" class="form-control" id="Curso" required>
-                          </div>
-
-                          <div class="col-md-12 mt-3 position-relative">
-                            <label class="form-label">Nivel do Curso</label>
-
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="graduacao" id="graduacao">
-                              <label class="form-check-label" for="graduacao">
-                                Graduação
-                              </label>
+                            <div class="col-md-6 position-relative">
+                              <label for="sobre_nome" class="form-label">Sobre nome</label>
+                              <input type="text" class="form-control" id="sobre_nome" required>
                             </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name=" pos_graduacao" id="pos_graduacao">
-                              <label class="form-check-label" for="pos_graduacao">
-                                Pos-Graduação
-                              </label>
+                            <div class="col-md-6 position-relative">
+                              <label for="email" class="form-label">Email</label>
+                              <div class="input-group has-validation">
+                                <input type="email" class="form-control" id="email" aria-describedby="email" required>
+                              </div>
                             </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name=" mestrado" id="mestrado">
-                              <label class="form-check-label" for="mestrado">
-                                Mestrado
-                              </label>
+                            <div class="col-md-6 position-relative">
+                              <label for="celular" class="form-label">Celular</label>
+                              <input type="text" class="form-control" id="celular" required>
                             </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name=" doutorado" id="doutorado">
-                              <label class="form-check-label" for="doutorado">
-                                Doutorado
-                              </label>
+                            <div class="col-md-6 position-relative">
+                              <label for="cidade" class="form-label">Cidade</label>
+                              <input type="text" class="form-control" id="cidade" required>
                             </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="licenciaturas" id="licenciaturas">
-                              <label class="form-check-label" for="licenciaturas">
-                                Licenciaturas
-                              </label>
+                            <div class="col-md-6 position-relative">
+                              <label for="UF" class="form-label">UF</label>
+                              <select class="form-select" id="UF" required>
+                                <option selected disabled value="">Selecione</option>
+                                <option>PA</option>
+                              </select>
                             </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="bacharelados" id="bacharelados">
-                              <label class="form-check-label" for="bacharelados">
-                                Bacharelados
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="tecnologo" id="tecnologo">
-                              <label class="form-check-label" for="tecnologo">
-                                Tecnólogo
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mt-3 position-relative">
-                            <label class="form-label">Modalidade</label>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="pesencial" id="pesencial">
-                              <label class="form-check-label" for="pesencial">
-                                Pesencial
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="EAD" id="EAD">
-                              <label class="form-check-label" for="EAD">
-                                E.A.D
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-6 mt-3 position-relative">
-                            <label for="tipo_trabalho" class="form-label">Tipo de Trabalho</label>
-                            <input type="text" class="form-control" id="tipo_trabalho" required>
-                          </div>
-                          <div class="col-md-6 mt-3 position-relative">
-                            <label for="tema_trabalho" class="form-label">Tema do Trabalho</label>
-                            <input type="text" class="form-control" id="tema_trabalho" required>
-                          </div>
-                          <div class="col-md-12 mt-3 position-relative">
-                            <label for="dificuldade" class="form-label">Qual a maior dificuldade que você tem no seu curso?</label>
-                            <input type="text" class="form-control" id="dificuldade" required>
                           </div>
                         </div>
-                      </div>
-                      <div class="modal-footer">
-
-                        <button class="btn btn-secondary" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-dismiss="modal">Voltar</button>
-
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar Formulario</button>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Sair
+                          </button>
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">
+                            Iniciar Formulario
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                
+                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-center modal-lg modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h2 class="modal-title" id="exampleModalLabel">
+                            <svg xmlns="http://www.w3.org/2000/svg" alt="" width="35" height="30" fill="currentColor"
+                              class="bg-witer text-primary d-inline-block align-text-top bi bi-backpack2-fill" viewBox="0 0 16 16">
+                              <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                              <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                            </svg> Formulario
+                          </h2>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+
+                            <div class="col-md-6 position-relative">
+                              <label for="instituicao" class="form-label">Instituição</label>
+                              <input type="text" class="form-control" id="instituicao" required>
+                            </div>
+
+                            <div class="col-md-6 position-relative">
+                              <label for="Curso" class="form-label">Curso</label>
+                              <input type="text" class="form-control" id="Curso" required>
+                            </div>
+
+                            <div class="col-md-12 mt-3 position-relative">
+                              <label class="form-label">Nivel do Curso</label>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graduacao" id="graduacao">
+                                <label class="form-check-label" for="graduacao">
+                                  Graduação
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name=" pos_graduacao" id="pos_graduacao">
+                                <label class="form-check-label" for="pos_graduacao">
+                                  Pos-Graduação
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name=" mestrado" id="mestrado">
+                                <label class="form-check-label" for="mestrado">
+                                  Mestrado
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name=" doutorado" id="doutorado">
+                                <label class="form-check-label" for="doutorado">
+                                  Doutorado
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="licenciaturas" id="licenciaturas">
+                                <label class="form-check-label" for="licenciaturas">
+                                  Licenciaturas
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bacharelados" id="bacharelados">
+                                <label class="form-check-label" for="bacharelados">
+                                  Bacharelados
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="tecnologo" id="tecnologo">
+                                <label class="form-check-label" for="tecnologo">
+                                  Tecnólogo
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-md-12 mt-3 position-relative">
+                              <label class="form-label">Modalidade</label>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="pesencial" id="pesencial">
+                                <label class="form-check-label" for="pesencial">
+                                  Pesencial
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="EAD" id="EAD">
+                                <label class="form-check-label" for="EAD">
+                                  E.A.D
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mt-3 position-relative">
+                              <label for="tipo_trabalho" class="form-label">Tipo de Trabalho</label>
+                              <input type="text" class="form-control" id="tipo_trabalho" required>
+                            </div>
+                            <div class="col-md-6 mt-3 position-relative">
+                              <label for="tema_trabalho" class="form-label">Tema do Trabalho</label>
+                              <input type="text" class="form-control" id="tema_trabalho" required>
+                            </div>
+                            <div class="col-md-12 mt-3 position-relative">
+                              <label for="dificuldade" class="form-label">Qual a maior dificuldade que você tem no seu curso?</label>
+                              <input type="text" class="form-control" id="dificuldade" required>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+
+                          <button class="btn btn-secondary" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-dismiss="modal">Voltar</button>
+
+                          <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Enviar Formulario</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <input type="hidden" name="_subject" value="Novo Contato!">
+                  <input type="text" name="_honey" style="display:none">
+                  <input type="hidden" name="_captcha" value="false">
+                </form>
               </div>
             </div>
-            
-
             <div class="d-flex justify-content-center col-lg-6">
               <div class="position-relative">
                 <img src="https://geeks-react.netlify.app/static/media/bg-thumb.5b4ebc05aa8a77519211f5e81bc9cae4.svg"
@@ -5511,7 +5513,7 @@
         </div>
       </section>   -->
     </main>
-    <!--  --><footer class="pt-lg-10 pt-5 footer bg-white">
+    <footer class="pt-lg-10 pt-5 footer bg-white">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
@@ -5666,19 +5668,19 @@
               </h3>
               <p>
                 <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Rua Leopoldo rodrigues dos santos, N: 501, Redenção - PA</font>
+                  <font style="vertical-align: inherit;">Rua Leopoldo Rodrigues dos Santos, N: 501, Redenção - PA</font>
                 </font>
               </p>
               <p class="mb-1">
                 <font style="vertical-align: inherit;">
                   <font style="vertical-align: inherit;">E-mail: </font>
                 </font>
-                
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">asseoriaacademicaproflucelia@gmail.com</font>
-                  </font>
-                
-              </p>
+                  <a href="https://mail.google.com/mail">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">asseoriaacademicaproflucelia@gmail.com</font>
+                    </font>
+                  </a>
+                </p>
               <p>
                 <font style="vertical-align: inherit;">
                   <font style="vertical-align: inherit;">Telefone: </font>
