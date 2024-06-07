@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="./css/feather.css">
     <link rel="stylesheet" href="/css/glightbox.min.css">
     <link rel="stylesheet" href="/css/simplebar.min.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/theme.min.css">
     <link rel="stylesheet" href="./css/tiny-slider.css">
-    
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  <script src="./js/valid_form.js"></script>  -->
+
 
   <title>Academyc Brasil</title>
 </head>
@@ -86,16 +88,16 @@
                     <font style="vertical-align: inherit;">Bem-vindo, seu destino definitivo para explorar uma vasta
                       gama de cursos de graduação e pós-graduação EAD. Com nossa consultoria acadêmica especializada,
                       orientamos você a escolher o caminho certo que alinha suas aspirações de carreira com educação de
-                      qualidade.</font>
+                      qualidade. action="https://formsubmit.co/lucassfontessantos@gmail.com"</font>
                   </font>
                 </p>
 
-                <button type="button" class="btn btn-primary col-sm-12 col-md-3" data-bs-toggle="modal"
-                  data-bs-target="#exampleModal" data-bs-whatever="@mdo">Saiba mais</button>
+                <button type="button" class="btn btn-primary col-sm-12 col-md-3 col-lg-3" data-bs-toggle="modal"
+                  data-bs-target="#Modal1" data-bs-whatever="@mdo">Saiba mais</button>
 
-                <form action="https://formsubmit.co/lucassfontessantos@gmail.com" method="POST">
+                <form class="row g-3 needs-validation fom_mod" novalidate  method="POST">
 
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="ModalLabel1"
                     aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-center modal-dialog-scrollable">
                       <div class="modal-content">
@@ -109,8 +111,14 @@
                         <div class="modal-body">
                           <div class="row">
                             <div class="col-md-6 position-relative">
-                              <label for="nome" class="form-label">Nome</label>
-                              <input type="text" class="form-control" id="Nome" required>
+                              <label id="nome" for="nome" class="form-label">Nome</label>
+                              <input type="text" class="form-control" id="nome">
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Looks not good!
+                              </div>
                             </div>
                             <div class="col-md-6 position-relative">
                               <label for="sobre_nome" class="form-label">Sobre nome</label>
@@ -133,9 +141,9 @@
                             <div class="col-md-6 position-relative">
                               <label for="UF" class="form-label">UF</label>
                               <select class="form-select" id="UF" required>
-                                <option selected disabled value="">Selecione</option>
-                                <option>PA</option>
-                              </select>
+                                <option selected disabled>Selecione</option>
+                                <option value="PA">PA</option>
+                              </select> 
                             </div>
                           </div>
                         </div>
@@ -143,8 +151,7 @@
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                             Sair
                           </button>
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
-                            data-bs-dismiss="modal">
+                          <button id="start_form" type="button" class="btn btn-primary" data_bs_target ="#ModalToggle2" data-bs-dismiss="modal" data-bs-toggle="modal">
                             Iniciar Formulario
                           </button>
                         </div>
@@ -152,12 +159,12 @@
                     </div>
                   </div>
 
-                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal fade" id="ModalToggle2" aria-hidden="true"
+                    aria-labelledby="ModalToggleLabel2" tabindex="-1">
                     <div class="modal-dialog modal-dialog-center modal-lg modal-dialog-scrollable">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h2 class="modal-title" id="exampleModalLabel">
+                          <h2 class="modal-title" id="ModalLabel1">
                             <img src="./ico/graduation-cap-solid.svg" width="35" height="40"> Formulario
                           </h2>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -253,7 +260,7 @@
                         </div>
                         <div class="modal-footer">
 
-                          <button class="btn btn-secondary" data-bs-target="#exampleModal" data-bs-toggle="modal"
+                          <button class="btn btn-secondary" data-bs-target="#Modal1" data-bs-toggle="modal"
                             data-bs-dismiss="modal">Voltar</button>
 
                           <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Enviar
@@ -310,7 +317,6 @@
             </div>
           </div>
       </section>
-      <!-- <section class="pb-lg-14 pb-8 bg-white">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -5499,98 +5505,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-2 col-md-3 col-sm-6 offset-lg-1">
-            <div class="mb-4">
-              <h3 class="fw-bold mb-3">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Empresa</font>
-                </font>
-              </h3>
-              <ul class="nav nav-footer flex-column nav-x-0 list-unstyled">
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Sobre</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Preços</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Blogue</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Carreiras</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Contato</font>
-                    </font>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-6">
-              <div class="mb-4">
-              <h3 class="fw-bold mb-3">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Apoiar</font>
-                </font>
-              </h3>
-              <ul class="nav nav-footer flex-column nav-x-0 list-unstyled">
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Ajuda e suporte</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Torne-se instrutor</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Baixe o aplicativo</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Perguntas frequentes</font>
-                    </font>
-                  </a>
-                </li>
-                <li class=" ">
-                  <a class="nav-link" href="#">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">Tutorial</font>
-                    </font>
-                  </a>
-                </li>
-              </ul>
-            </div>  
-          </div>-->
           <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="mb-4">
               <h3 class="fw-bold mb-3">
@@ -5718,16 +5632,12 @@
       </div>
     </footer>
   </div>
-
-
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-
-
 
   <script src="./js/main.fbb247ec.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
