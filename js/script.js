@@ -105,8 +105,6 @@ UF.addEventListener('change',()=>{
     verefic()
 })
 
-start_form.className = 'btn btn-primary'
-
 function verefic(){
 
     if (nome.value !== '' & 
